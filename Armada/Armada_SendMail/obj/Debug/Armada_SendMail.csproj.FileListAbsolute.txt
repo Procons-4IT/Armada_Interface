@@ -1,0 +1,8 @@
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_SendMail\bin\Debug\Armada_SendMail.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_SendMail\bin\Debug\Armada_SendMail.pdb
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_SendMail\obj\Debug\Armada_SendMail.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_SendMail\obj\Debug\Armada_SendMail.pdb
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\bin\Debug\Armada_SendMail.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\bin\Debug\Armada_SendMail.pdb
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\obj\Debug\Armada_SendMail.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\obj\Debug\Armada_SendMail.pdb

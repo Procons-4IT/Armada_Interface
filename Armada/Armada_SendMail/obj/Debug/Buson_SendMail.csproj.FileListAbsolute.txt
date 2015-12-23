@@ -1,0 +1,14 @@
+D:\Project\BusOnService(sks)\Service\TransMail\bin\Debug\Buson_SendMail.dll
+D:\Project\BusOnService(sks)\Service\TransMail\bin\Debug\Buson_SendMail.pdb
+D:\Project\BusOnService(sks)\Service\TransMail\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\BusOnService(sks)\Service\TransMail\obj\Debug\Buson_SendMail.dll
+D:\Project\BusOnService(sks)\Service\TransMail\obj\Debug\Buson_SendMail.pdb
+D:\Project\BusOnService(sks)\Service\Buson_SendMail\bin\Debug\Buson_SendMail.dll
+D:\Project\BusOnService(sks)\Service\Buson_SendMail\bin\Debug\Buson_SendMail.pdb
+D:\Project\BusOnService(sks)\Service\Buson_SendMail\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\BusOnService(sks)\Service\Buson_SendMail\obj\Debug\Buson_SendMail.dll
+D:\Project\BusOnService(sks)\Service\Buson_SendMail\obj\Debug\Buson_SendMail.pdb
+D:\Project\SKS\Service\Buson_SendMail\bin\Debug\Buson_SendMail.dll
+D:\Project\SKS\Service\Buson_SendMail\bin\Debug\Buson_SendMail.pdb
+D:\Project\SKS\Service\Buson_SendMail\obj\Debug\Buson_SendMail.dll
+D:\Project\SKS\Service\Buson_SendMail\obj\Debug\Buson_SendMail.pdb

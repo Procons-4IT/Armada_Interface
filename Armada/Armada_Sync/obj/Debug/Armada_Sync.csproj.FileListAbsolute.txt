@@ -1,0 +1,13 @@
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_Sync\bin\Debug\Armada_Sync.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_Sync\bin\Debug\Armada_Sync.pdb
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_Sync\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_Sync\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_Sync\obj\Debug\Armada_Sync.csproj.ResolveComReference.cache
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_Sync\obj\Debug\Armada_Sync.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Buson_Sync\obj\Debug\Armada_Sync.pdb
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Sync\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Sync\obj\Debug\Armada_Sync.csproj.ResolveComReference.cache
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Sync\bin\Debug\Armada_Sync.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Sync\bin\Debug\Armada_Sync.pdb
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Sync\obj\Debug\Armada_Sync.dll
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Sync\obj\Debug\Armada_Sync.pdb

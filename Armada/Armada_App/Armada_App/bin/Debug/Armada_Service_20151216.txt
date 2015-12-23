@@ -1,0 +1,98 @@
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARInvoice
+ Transaction Key : 5
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARInvoice
+ Transaction Key : 5
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARInvoice
+ Transaction Key : 5
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARInvoice
+ Transaction Key : 5
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARInvoice
+ Transaction Key : 5
+Company : SBODemoIn
+Connected
+Company : WMS
+Connected
+Company DB : SBODemoIn
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : SBODemoIn
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : SBODemoIn
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : SBODemoIn
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : SBODemoIn
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : SBODemoIn
+ Transaction Type : Customer
+ Transaction Key : 1005           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005           
+Company DB : SBODemoIn
+ Transaction Type : Customer
+ Transaction Key : 1007           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1007           
+Get Company
+Company DB : SBODemoIn
+ Transaction Type : ARInvoice
+ Transaction Key : 6
+Company : SBODemoIn
+Connected
+Company : WMS
+Connected
+Company : SBODemoIn
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIn
+ Transaction Type : ARInvoice
+ Transaction Key : 1709206
+Get Company
+Company DB : SBODemoIn
+ Transaction Type : ARInvoice
+ Transaction Key : 1709209
+Get Company
+Company DB : SBODemoIn
+ Transaction Type : ARInvoice
+ Transaction Key : 1709209

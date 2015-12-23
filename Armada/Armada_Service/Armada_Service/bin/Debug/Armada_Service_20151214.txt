@@ -1,0 +1,252 @@
+   at Armada_SendMail.clsTransMail.LoadMailDetails() in C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\clsTransMail.cs:line 67
+   at Armada_Service.Armada_Service.SendMail() in C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\Armada_Service.cs:line 385
+Cannot open database "{0}" requested by the login. The login failed.
+Login failed for user 'sa'.
+.Net SqlClient Data Provider
+Timer Elapses At :14-12-2015 13:54:06
+Stopped Service :14-12-2015 13:54:32
+Started Service :14-12-2015 13:58:48
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Timer Reset At :14-12-2015 13:59:18
+False
+Sync Starts...
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Sync Ends...
+False
+   at Armada_SendMail.clsTransMail.LoadMailDetails(String strInterface) in C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\clsTransMail.cs:line 68
+   at Armada_Service.Armada_Service.SendMail() in C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\Armada_Service.cs:line 386
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses
+Armada_SendMail
+Timer Elapses At :14-12-2015 13:59:22
+Timer Reset At :14-12-2015 13:59:48
+False
+Sync Starts...
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Sync Ends...
+False
+Timer Elapses At :14-12-2015 13:59:56
+Timer Reset At :14-12-2015 14:00:18
+False
+Sync Starts...
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Sync Ends...
+False
+Timer Elapses At :14-12-2015 14:00:26
+Stopped Service :14-12-2015 14:00:43
+Started Service :14-12-2015 15:18:40
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Timer Reset At :14-12-2015 15:19:10
+False
+Sync Starts...
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Sync Ends...
+False
+Timer Elapses At :14-12-2015 15:19:19
+Timer Reset At :14-12-2015 15:19:40
+False
+Sync Starts...
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Sync Ends...
+False
+Timer Elapses At :14-12-2015 15:19:48
+Timer Reset At :14-12-2015 15:20:10
+False
+Sync Starts...
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Get Company
+Company DB : SBODEMOIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Sync Ends...
+False
+Timer Elapses At :14-12-2015 15:20:17
+Stopped Service :14-12-2015 15:20:33

@@ -1,0 +1,11 @@
+D:\Project\SKS\Service\Buson_Look\bin\Debug\Buson_Look.exe
+D:\Project\SKS\Service\Buson_Look\bin\Debug\Buson_Look.pdb
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\Buson_Look.Properties.Resources.resources
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\Buson_Look.exe
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\Buson_Look.pdb
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\Buson_Look.ProjectInstaller.resources
+D:\Project\SKS\Service\Buson_Look\bin\Debug\Buson_Look.exe.config
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\ResGen.read.1.tlog
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\ResGen.write.1.tlog
+D:\Project\SKS\Service\Buson_Look\obj\x86\Debug\Buson_Look.BusOn_LookUp.resources

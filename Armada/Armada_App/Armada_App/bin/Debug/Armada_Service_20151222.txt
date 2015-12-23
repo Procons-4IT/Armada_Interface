@@ -1,0 +1,393 @@
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709212
+Commited
+Commited Completed..
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1
+Query :Exec Armada_Service_S_OINV_s '1'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1','ARInvoice','431','277','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 2
+Query :Exec Armada_Service_S_OINV_s '2'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '2','ARInvoice','432','278','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 3
+Query :Exec Armada_Service_S_OINV_s '3'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '3','ARInvoice','433','279','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 4
+Query :Exec Armada_Service_S_OINV_s '4'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '4','ARInvoice','434','280','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 5
+Query :Exec Armada_Service_S_OINV_s '5'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '5','ARInvoice','435','281','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 6
+Query :Exec Armada_Service_S_OINV_s '6'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '6','ARInvoice','436','282','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709206
+Query :Exec Armada_Service_S_OINV_s '1709206'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1709206','ARInvoice','437','283','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709209
+Query :Exec Armada_Service_S_OINV_s '1709209'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited1
+Exec Armada_Service_TxnLog_U '1709209','ARInvoice','438','284','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..1
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709205
+Query :Exec Armada_Service_S_OINV_s '1709205'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1709205','ARInvoice','439','285','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709208
+Query :Exec Armada_Service_S_OINV_s '1709208'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1709208','ARInvoice','440','286','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709210
+Query :Exec Armada_Service_S_OINV_s '1709210'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1709210','ARInvoice','441','287','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Query :Exec Armada_Service_S_OINV_s '1709211'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1709211','ARInvoice','442','288','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709212
+Query :Exec Armada_Service_S_OINV_s '1709212'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1709212','ARInvoice','443','289','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709213
+Query :Exec Armada_Service_S_OINV_s '1709213'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1709213','ARInvoice','444','290','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1
+Query :Exec Armada_Service_S_OINV_s '1'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1','ARInvoice','445','291','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 2
+Query :Exec Armada_Service_S_OINV_s '2'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '2','ARInvoice','446','292','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1
+Query :Exec Armada_Service_S_OINV_s '1'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '1','ARInvoice','447','293','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 2
+Query :Exec Armada_Service_S_OINV_s '2'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '2','ARInvoice','448','294','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 3
+Query :Exec Armada_Service_S_OINV_s '3'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '3','ARInvoice','449','295','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 4
+Query :Exec Armada_Service_S_OINV_s '4'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '4','ARInvoice','450','296','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 5
+Query :Exec Armada_Service_S_OINV_s '5'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Commited
+Exec Armada_Service_TxnLog_U '5','ARInvoice','451','297','1','','Armada_Sync Completed Sucessfully'
+Commited Completed..
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 6
+Query :Exec Armada_Service_S_OINV_s '6'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '6','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709206
+Query :Exec Armada_Service_S_OINV_s '1709206'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709206','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709209
+Query :Exec Armada_Service_S_OINV_s '1709209'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709209','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709205
+Query :Exec Armada_Service_S_OINV_s '1709205'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709205','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709208
+Query :Exec Armada_Service_S_OINV_s '1709208'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709208','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709210
+Query :Exec Armada_Service_S_OINV_s '1709210'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709210','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Query :Exec Armada_Service_S_OINV_s '1709211'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709211','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709212
+Query :Exec Armada_Service_S_OINV_s '1709212'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709212','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709213
+Query :Exec Armada_Service_S_OINV_s '1709213'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Quantity falls into negative inventory  [INV1.ItemCode][line: 1]
+Exec Armada_Service_TxnLog_U '1709213','ARInvoice','0','0','0','-10','Quantity falls into negative inventory  [INV1.ItemCode][line: 1]'

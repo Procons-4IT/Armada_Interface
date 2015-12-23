@@ -1,0 +1,5 @@
+D:\Project\BusOnService(sks)\Service\TransMail\bin\Debug\TransMail.dll
+D:\Project\BusOnService(sks)\Service\TransMail\bin\Debug\TransMail.pdb
+D:\Project\BusOnService(sks)\Service\TransMail\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\BusOnService(sks)\Service\TransMail\obj\Debug\TransMail.dll
+D:\Project\BusOnService(sks)\Service\TransMail\obj\Debug\TransMail.pdb

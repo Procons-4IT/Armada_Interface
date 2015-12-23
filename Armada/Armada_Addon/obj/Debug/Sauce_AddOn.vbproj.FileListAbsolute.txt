@@ -1,0 +1,282 @@
+C:\SEIDOR\E-CommerceAddon_20150609\bin\Debug\Sauce.exe
+C:\SEIDOR\E-CommerceAddon_20150609\bin\Debug\Sauce.pdb
+C:\SEIDOR\E-CommerceAddon_20150609\bin\Debug\Sauce.xml
+C:\SEIDOR\E-CommerceAddon_20150609\bin\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\E-CommerceAddon_20150609\bin\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\E-CommerceAddon_20150609\bin\Debug\Interop.Scripting.dll
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Interop.Scripting.dll
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce.frmReportViewer.resources
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce.Resources.resources
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce.exe
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce.xml
+C:\SEIDOR\E-CommerceAddon_20150609\obj\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\bin\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\bin\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\bin\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\bin\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\bin\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\bin\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce.frmReportViewer.resources
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce.Resources.resources
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Deliveries\20150609_Sauce Addon 1.0.1\E-CommerceAddon_20150609\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce.exe
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce.xml
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce.pdb
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\bin\Debug\Sauce.exe
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\bin\Debug\Sauce.pdb
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\bin\Debug\Sauce.xml
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\bin\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\bin\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\bin\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce.frmReportViewer.resources
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce.Resources.resources
+C:\SEIDOR\ECommerceAddon\E-CommerceAddon_20150622\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce.exe
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce.xml
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce.pdb
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\bin\Debug\Sauce.exe
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\bin\Debug\Sauce.pdb
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\bin\Debug\Sauce.xml
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\bin\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\bin\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\bin\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce.frmReportViewer.resources
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce.Resources.resources
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150622\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce.exe
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce.xml
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce.pdb
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce.frmReportViewer.resources
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce.Resources.resources
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\bin\Debug\Sauce.exe
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\bin\Debug\Sauce.pdb
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\bin\Debug\Sauce.xml
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\bin\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\bin\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150709\bin\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce.exe
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce.xml
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce.pdb
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\bin\Debug\Sauce.exe
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\bin\Debug\Sauce.pdb
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\bin\Debug\Sauce.xml
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\bin\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\bin\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\bin\Debug\Interop.Scripting.dll
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce.frmReportViewer.resources
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce.Resources.resources
+C:\SEIDOR\ECommerce_AddonSource\E-CommerceAddon_20150714\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Interop.Scripting.dll
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.Resources.resources
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Sauce.exe
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Sauce.pdb
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Sauce.xml
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Interop.Scripting.dll
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.exe
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.xml
+D:\Project\procons4it\SAS\Sauce JSON Format String\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.pdb
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Interop.Scripting.dll
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.exe
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.xml
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.pdb
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Sauce.exe
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Sauce.pdb
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Sauce.xml
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Interop.SAPbobsCOM.dll
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Interop.SAPbouiCOM.dll
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\bin\Debug\Interop.Scripting.dll
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce.Resources.resources
+C:\SEIDOR\Latest_Source\Sauce_eShopping\Sauce_eShopping\E-CommerceAddon\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\E-CommerceAddon_20151005\obj\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\E-CommerceAddon_20151005\obj\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\E-CommerceAddon_20151005\obj\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\E-CommerceAddon_20151005\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\E-CommerceAddon_20151005\obj\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\E-CommerceAddon_20151005\obj\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\E-CommerceAddon_20151005\obj\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\bin\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\bin\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\bin\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\bin\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\bin\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\bin\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Sauce.Resources.resources
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151005\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\bin\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\bin\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\bin\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\bin\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\bin\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\bin\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Sauce.Resources.resources
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151006\obj\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\bin\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\bin\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\bin\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\bin\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\bin\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\bin\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Sauce.Resources.resources
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151007\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\bin\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\bin\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\bin\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\bin\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\bin\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\bin\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Sauce.Resources.resources
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151009\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\bin\Debug\Sauce.exe
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\bin\Debug\Sauce.pdb
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\bin\Debug\Sauce.xml
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\bin\Debug\Interop.SAPbobsCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\bin\Debug\Interop.SAPbouiCOM.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\bin\Debug\Interop.Scripting.dll
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Sauce.Resources.resources
+G:\International Projects_SAP9.0\Other Customers\Gerorge_Seidor\E-Commerce Integration\Addon Source\E-CommerceAddon_20151012\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\bin\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\bin\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\bin\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\bin\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\bin\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\bin\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Sauce.Resources.resources
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151026\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\bin\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\bin\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\bin\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\bin\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\bin\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\bin\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Sauce.Resources.resources
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151029\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\bin\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\bin\Debug\Sauce.pdb
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\bin\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\bin\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\bin\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\bin\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Sauce_AddOn.vbprojResolveAssemblyReference.cache
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Sauce.Resources.resources
+E:\SEIDOR\ECommerceAddonSource\E-CommerceAddon_20151215\obj\Debug\Sauce_AddOn.vbproj.GenerateResource.Cache
+E:\SEIDOR\ECommerceAddonSource\SauceAddon_20151215\obj\Debug\Interop.SAPbobsCOM.dll
+E:\SEIDOR\ECommerceAddonSource\SauceAddon_20151215\obj\Debug\Interop.SAPbouiCOM.dll
+E:\SEIDOR\ECommerceAddonSource\SauceAddon_20151215\obj\Debug\Interop.Scripting.dll
+E:\SEIDOR\ECommerceAddonSource\SauceAddon_20151215\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+E:\SEIDOR\ECommerceAddonSource\SauceAddon_20151215\obj\Debug\Sauce.exe
+E:\SEIDOR\ECommerceAddonSource\SauceAddon_20151215\obj\Debug\Sauce.xml
+E:\SEIDOR\ECommerceAddonSource\SauceAddon_20151215\obj\Debug\Sauce.pdb
+C:\Users\LENOVO\Desktop\SauceAddon_20151215\SauceAddon_20151215\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\LENOVO\Desktop\SauceAddon_20151215\SauceAddon_20151215\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\LENOVO\Desktop\SauceAddon_20151215\SauceAddon_20151215\obj\Debug\Interop.Scripting.dll
+C:\Users\LENOVO\Desktop\SauceAddon_20151215\SauceAddon_20151215\obj\Debug\Sauce_AddOn.vbproj.ResolveComReference.cache
+C:\Users\LENOVO\Desktop\SauceAddon_20151215\SauceAddon_20151215\obj\Debug\Sauce.exe
+C:\Users\LENOVO\Desktop\SauceAddon_20151215\SauceAddon_20151215\obj\Debug\Sauce.xml
+C:\Users\LENOVO\Desktop\SauceAddon_20151215\SauceAddon_20151215\obj\Debug\Sauce.pdb

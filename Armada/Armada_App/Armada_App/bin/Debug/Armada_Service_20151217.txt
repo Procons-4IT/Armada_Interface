@@ -1,0 +1,249 @@
+Get Company
+Company DB : SBODemoIn
+ Transaction Type : ARInvoice
+ Transaction Key : 1709209
+Get Company
+Company DB : SBODemoIn
+ Transaction Type : ARInvoice
+ Transaction Key : 1709205
+Company : SBODemoIn
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+Company : SBODemoIn
+Connected
+Company : WMS
+Connected
+Get Company
+Company : SBODemoIn
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709209
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709208
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709208
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709210
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709212
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARCreditMemo
+ Transaction Key : 4
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : InventoryTransfer
+ Transaction Key : 111
+0
+Get Company
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : InventoryTransfer
+ Transaction Key : 112
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : ARInvoice
+ Transaction Key : 1709213
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+Company DB : SBODemoIN
+ Transaction Type : InventoryTransfer
+ Transaction Key : 113
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1005           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1005           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005           
+Company : DIET
+Connected
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1000           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1001           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004           
+Company DB : DIET
+ Transaction Type : Customer
+ Transaction Key : 1005           
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1005           
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005           

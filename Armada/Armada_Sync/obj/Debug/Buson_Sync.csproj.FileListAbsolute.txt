@@ -1,0 +1,14 @@
+C:\Project\SKs\Service\Buson_Sync\bin\Debug\Buson_Sync.dll
+C:\Project\SKs\Service\Buson_Sync\bin\Debug\Buson_Sync.pdb
+C:\Project\SKs\Service\Buson_Sync\obj\Debug\Buson_Sync.dll
+C:\Project\SKs\Service\Buson_Sync\obj\Debug\Buson_Sync.pdb
+C:\Project\SKs\Service\Buson_Sync\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Project\SKs\Service\Buson_Sync\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Project\SKs\Service\Buson_Sync\obj\Debug\Buson_Sync.csproj.ResolveComReference.cache
+D:\Project\SKS\Service\Buson_Sync\bin\Debug\Buson_Sync.dll
+D:\Project\SKS\Service\Buson_Sync\bin\Debug\Buson_Sync.pdb
+D:\Project\SKS\Service\Buson_Sync\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Project\SKS\Service\Buson_Sync\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Project\SKS\Service\Buson_Sync\obj\Debug\Buson_Sync.csproj.ResolveComReference.cache
+D:\Project\SKS\Service\Buson_Sync\obj\Debug\Buson_Sync.dll
+D:\Project\SKS\Service\Buson_Sync\obj\Debug\Buson_Sync.pdb

@@ -1,0 +1,36 @@
+﻿Installing assembly 'D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.InstallLog
+   assemblypath = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe assembly.
+Committing assembly 'D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.InstallLog
+   assemblypath = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.InstallLog
+   assemblypath = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe
+Rolling back assembly 'D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.InstallLog
+   assemblypath = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe
+Installing assembly 'D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.InstallLog
+   assemblypath = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe
+Installing service BusOn_Lookup...
+Service BusOn_Lookup has been successfully installed.
+Creating EventLog source BusOn_Lookup in log Application...
+Committing assembly 'D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.InstallLog
+   assemblypath = D:\Project\SKS\Service\Buson_Look\bin\Debug\buson_look.exe

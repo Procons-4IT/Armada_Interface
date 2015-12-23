@@ -1,0 +1,56 @@
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1002
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1003
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1004
+Company DB : SBODEMOIN
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company DB : WMS
+ Transaction Type : Customer
+ Transaction Key : 1005
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
+Company : SBODEMOIN
+Connected
+Company : WMS
+Connected
