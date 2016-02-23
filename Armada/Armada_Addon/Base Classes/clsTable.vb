@@ -172,7 +172,6 @@ Public NotInheritable Class clsTable
     '**************************************************************************************************************
     Private Function IsColumnExists(ByVal Table As String, ByVal Column As String) As Boolean
         Dim oRecordSet As SAPbobsCOM.Recordset
-
         Try
             strSQL = "SELECT COUNT(*) FROM CUFD WHERE Upper(""TableID"") = '" & Table.ToUpper & "' AND Upper(""AliasID"") = '" & Column.Trim.ToUpper & "'"
             oRecordSet = oApplication.Company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
@@ -301,6 +300,7 @@ Public NotInheritable Class clsTable
     Private Sub AddUDO(ByVal strUDO As String, ByVal strDesc As String, ByVal strTable As String, _
                                 Optional ByVal sFind1 As String = "", Optional ByVal sFind2 As String = "", _
                                         Optional ByVal strChildTbl As String = "", _
+                                        Optional ByVal blnMultiChild As Boolean = False,
                                         Optional ByVal nObjectType As SAPbobsCOM.BoUDOObjType = SAPbobsCOM.BoUDOObjType.boud_Document, _
                                                                                                  Optional ByVal blnDefault As Boolean = False _
                                                                                                      , Optional ByVal strDColumns As String = "")
@@ -343,9 +343,22 @@ Public NotInheritable Class clsTable
                 oUserObjectMD.CanYearTransfer = SAPbobsCOM.BoYesNoEnum.tNO
                 oUserObjectMD.ExtensionName = ""
 
-                If strChildTbl <> "" Then
-                    oUserObjectMD.ChildTables.TableName = strChildTbl
+                If Not blnMultiChild Then
+                    If strChildTbl <> "" Then
+                        oUserObjectMD.ChildTables.TableName = strChildTbl
+                    End If
+                Else
+                    Dim strChild As String()
+                    strChild = strChildTbl.Split(",")
+                    For Each strTabl As String In strChild
+                        oUserObjectMD.ChildTables.TableName = strTabl
+                        oUserObjectMD.ChildTables.Add()
+                    Next
                 End If
+
+                'If strChildTbl <> "" Then
+                '    oUserObjectMD.ChildTables.TableName = strChildTbl
+                'End If
 
                 oUserObjectMD.ManageSeries = SAPbobsCOM.BoYesNoEnum.tNO
                 oUserObjectMD.Code = strUDO
@@ -357,7 +370,7 @@ Public NotInheritable Class clsTable
                     Throw New Exception(oApplication.Company.GetLastErrorDescription)
                 End If
             End If
-            
+
         Finally
             System.Runtime.InteropServices.Marshal.ReleaseComObject(oUserObjectMD)
             oUserObjectMD = Nothing
@@ -433,6 +446,70 @@ Public NotInheritable Class clsTable
             GC.Collect()
         End Try
     End Sub
+
+    Private Sub UpdateUDO_1(ByVal strUDO As String, ByVal strDesc As String, ByVal strTable As String, _
+                                Optional ByVal sFind1 As String = "", Optional ByVal sFind2 As String = "", _
+                                        Optional ByVal blnMultiChild As Boolean = False, _
+                                        Optional ByVal strChildTbl As String = "", _
+                                        Optional ByVal nObjectType As SAPbobsCOM.BoUDOObjType = SAPbobsCOM.BoUDOObjType.boud_Document)
+
+        Dim oUserObjectMD As SAPbobsCOM.UserObjectsMD
+        Dim blnUpdate As Boolean = False
+        Try
+            oUserObjectMD = oApplication.Company.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oUserObjectsMD)
+            If oUserObjectMD.GetByKey(strUDO) Then
+
+                If oUserObjectMD.Name <> strDesc Then
+                    oUserObjectMD.Name = strDesc
+                    blnUpdate = True
+                End If
+
+                If Not blnMultiChild Then
+                    If strChildTbl <> "" Then
+                        oUserObjectMD.ChildTables.TableName = strChildTbl
+                    End If
+                Else
+                    Dim strChild As String()
+                    strChild = strChildTbl.Split(",")
+
+                    For Each strTabl As String In strChild
+                        Dim blnTableExists As Boolean = False
+                        For index As Integer = 0 To oUserObjectMD.ChildTables.Count - 1
+                            oUserObjectMD.ChildTables.SetCurrentLine(index)
+                            If oUserObjectMD.ChildTables.TableName = strTabl Then
+                                blnTableExists = True
+                            End If
+                        Next
+                        If Not blnTableExists Then
+                            blnUpdate = True
+                            oUserObjectMD.ChildTables.Add()
+                            oUserObjectMD.ChildTables.SetCurrentLine(oUserObjectMD.ChildTables.Count - 1)
+                            oUserObjectMD.ChildTables.TableName = strTabl
+                        End If
+                    Next
+                End If
+
+                If blnUpdate Then
+                    If oUserObjectMD.Update() <> 0 Then
+                        Throw New Exception(oApplication.Company.GetLastErrorDescription)
+                    End If
+                End If
+
+            End If
+
+        Catch ex As Exception
+            Throw ex
+            'oApplication.Log.oApplication.Log.Trace_DIET_AddOn_Error(ex)
+
+        Finally
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(oUserObjectMD)
+            oUserObjectMD = Nothing
+            GC.WaitForPendingFinalizers()
+            GC.Collect()
+        End Try
+
+    End Sub
+
 #End Region
 
 #Region "Public Functions"
@@ -451,7 +528,7 @@ Public NotInheritable Class clsTable
         Try
 
             oApplication.SBO_Application.StatusBar.SetText("Initializing Database...", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
-            oApplication.Company.StartTransaction()
+            'oApplication.Company.StartTransaction()
 
             '---- User Defined Fields
             AddFields("OCRD", "Z_SYNC", "WEB SYNC", SAPbobsCOM.BoFieldTypes.db_Alpha, , 1)
@@ -460,12 +537,15 @@ Public NotInheritable Class clsTable
             AddFields("OINV", "Z_CASHIER", "CASHIER", SAPbobsCOM.BoFieldTypes.db_Alpha, , 100)
             AddFields("OINV", "Z_DOCTIME", "DOC TIME", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
             AddFields("OWTR", "Z_SYNC", "WEB SYNC", SAPbobsCOM.BoFieldTypes.db_Alpha, , 1)
+            AddFields("OINV", "Z_TrnNum", "Transaction No.", SAPbobsCOM.BoFieldTypes.db_Alpha, , 50)
 
             AddTables("Z_INBOUNDMAPPING", "In Bound Configuration", SAPbobsCOM.BoUTBTableType.bott_MasterData)
             AddFields("Z_INBOUNDMAPPING", "COMPANY", "SAP Company", SAPbobsCOM.BoFieldTypes.db_Alpha, , 100)
             AddFields("Z_INBOUNDMAPPING", "SAPUSERNAME", "SAP USERNAME", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
             AddFields("Z_INBOUNDMAPPING", "SAPPASSWORD", "SAP PASSWORD", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
             AddFields("Z_INBOUNDMAPPING", "OUTACCT", "OUTGOING ACCT", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
+            AddFields("Z_INBOUNDMAPPING", "COUNTRY", "COUNTRY", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
+            AddFields("Z_INBOUNDMAPPING", "ISMAIN", "IS MAIN", SAPbobsCOM.BoFieldTypes.db_Alpha, , 1)
 
             'AddFields("Z_INBOUNDMAPPING", "CREDITCARD", "CREDIT CARD", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
             'AddFields("Z_INBOUNDMAPPING", "CARDNUMBER", "CARDNUMBER", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
@@ -475,6 +555,11 @@ Public NotInheritable Class clsTable
             AddTables("Z_INBOUNDMAPPINGC", "In Configuration Child", SAPbobsCOM.BoUTBTableType.bott_MasterDataLines)
             AddFields("Z_INBOUNDMAPPINGC", "SHOPID", "SHOPID", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
             AddFields("Z_INBOUNDMAPPINGC", "WAREHOUSE", "WAREHOUSE", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
+            AddFields("Z_INBOUNDMAPPINGC", "PRICELIST", "PRICELIST", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
+            AddFields("Z_INBOUNDMAPPINGC", "GIACCT", "OUTGOING ACCT", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
+            AddFields("Z_INBOUNDMAPPINGC", "GRACCT", "OUTGOING ACCT", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
+            AddFields("Z_INBOUNDMAPPINGC", "LOCATION", "LOCATION", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
+            AddFields("Z_INBOUNDMAPPINGC", "COSTCEN", "COST CENTER", SAPbobsCOM.BoFieldTypes.db_Alpha, , 40)
 
             AddTables("Z_INBOUNDMAPPINGC1", "In Configuration Child1", SAPbobsCOM.BoUTBTableType.bott_MasterDataLines)
             AddFields("Z_INBOUNDMAPPINGC1", "SCREDITCARD", "SHOP CREDIT CARD", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
@@ -483,17 +568,22 @@ Public NotInheritable Class clsTable
             AddFields("Z_INBOUNDMAPPINGC1", "CARDVALID", "CARDVALID", SAPbobsCOM.BoFieldTypes.db_Date)
             AddFields("Z_INBOUNDMAPPINGC1", "PAYMENTMETHOD", "PAYMENTMETHOD", SAPbobsCOM.BoFieldTypes.db_Alpha, , 10)
 
+            AddTables("Z_INBOUNDMAPPINGC2", "In Configuration Child2", SAPbobsCOM.BoUTBTableType.bott_MasterDataLines)
+            AddFields("Z_INBOUNDMAPPINGC2", "COMPANY", "SAP Company", SAPbobsCOM.BoFieldTypes.db_Alpha, , 100)
+            AddFields("Z_INBOUNDMAPPINGC2", "GIACCT", "OUTGOING ACCT", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
+            AddFields("Z_INBOUNDMAPPINGC2", "GRACCT", "OUTGOING ACCT", SAPbobsCOM.BoFieldTypes.db_Alpha, , 30)
+
             '---- User Defined Object
             CreateUDO()
 
-            If oApplication.Company.InTransaction() Then
-                oApplication.Company.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit)
-            End If
+            'If oApplication.Company.InTransaction() Then
+            '    oApplication.Company.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit)
+            'End If
             oApplication.SBO_Application.StatusBar.SetText("Database creation completed...", SAPbouiCOM.BoMessageTime.bmt_Short, SAPbouiCOM.BoStatusBarMessageType.smt_Warning)
         Catch ex As Exception
-            If oApplication.Company.InTransaction() Then
-                oApplication.Company.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_RollBack)
-            End If
+            'If oApplication.Company.InTransaction() Then
+            '    oApplication.Company.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_RollBack)
+            'End If
             Throw ex
         Finally
             GC.Collect()
@@ -504,7 +594,9 @@ Public NotInheritable Class clsTable
     Public Sub CreateUDO()
         Try
             'Add UDO
-            AddUDO("Z_INBOUNDMAPPING", "Z_INBOUNDMAPPING", "Z_INBOUNDMAPPING", "U_COMPANY", "U_SAPUSERNAME", "Z_INBOUNDMAPPINGC,Z_INBOUNDMAPPINGC1", SAPbobsCOM.BoUDOObjType.boud_MasterData, True, "Code$Code,U_COMPANY$SAP COMPANY,U_SAPUSERNAME$ SAP USERNAME,U_SAPPASSWORD$SAP PASSWORD,U_CREDITCARD$CREDIT CARD,U_CARDNUMBER$CARD NO,U_CARDVALID$CARD VALID,U_PAYMENTMETHOD$ PAYMENT METHOD ") ' In Bound 
+            'Code$Code,U_COMPANY$SAP COMPANY,U_SAPUSERNAME$ SAP USERNAME,U_SAPPASSWORD$SAP PASSWORD,U_CREDITCARD$CREDIT CARD,U_CARDNUMBER$CARD NO,U_CARDVALID$CARD VALID,U_PAYMENTMETHOD$ PAYMENT METHOD 
+            AddUDO("Z_INBOUNDMAPPING", "Z_INBOUNDMAPPING", "Z_INBOUNDMAPPING", "U_COMPANY", "U_SAPUSERNAME", "Z_INBOUNDMAPPINGC,Z_INBOUNDMAPPINGC1,Z_INBOUNDMAPPINGC2", True, SAPbobsCOM.BoUDOObjType.boud_MasterData, False, "") ' In Bound 
+            UpdateUDO_1("Z_INBOUNDMAPPING", "Z_INBOUNDMAPPING", "Z_INBOUNDMAPPING", "U_COMPANY", "U_SAPUSERNAME", True, "Z_INBOUNDMAPPINGC2", SAPbobsCOM.BoUDOObjType.boud_MasterData)
         Catch ex As Exception
             Throw ex
         End Try

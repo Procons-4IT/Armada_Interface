@@ -1,9 +1,9 @@
 <Application>
   <Menus>
     <action type="add">
+      
       <!--<Menu Checked="0" Enabled="1" FatherUID="3072" Image="" Position="1" String="BarCode Generation"
-				Type="1" UniqueID="Menu_B01"></Menu>
-
+			Type="1" UniqueID="Menu_B01"></Menu>
       <Menu Checked="0" Enabled="1" FatherUID="3072" Image="" Position="2" String="BarCode Priting"
       Type="1" UniqueID="Menu_B02"></Menu>
       <Menu Checked="0" Enabled="1" FatherUID="3072" Image="" Position="2" String="BarCode Priting - Purchse Order"

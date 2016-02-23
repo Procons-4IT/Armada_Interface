@@ -116,7 +116,43 @@
                         strQuery += " " & strSCompany & ".dbo.OACT T0  "
                         strQuery += " WHERE ""Postable"" = 'Y'"
                         objform.Title = "Account List - Selection"
-
+                    Case "L"
+                        strQuery = " SELECT  T0.""ListNum"" as ""ListNum"", T0.""ListName"" as ""ListName"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OPLN T0  "
+                        objform.Title = "Price List - Selection"
+                    Case "R"
+                        strQuery = " SELECT  T0.""Code"" as ""Code"", T0.""Name"" as ""Name"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OCRY T0  "
+                        objform.Title = "Country List - Selection"
+                    Case "IA"
+                        strQuery = " SELECT  T0.""AcctCode"" as ""AcctCode"", T0.""AcctName"" as ""AcctName"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OACT T0  "
+                        strQuery += " WHERE ""Postable"" = 'Y'"
+                        objform.Title = "Account List - Selection"
+                    Case "RA"
+                        strQuery = " SELECT  T0.""AcctCode"" as ""AcctCode"", T0.""AcctName"" as ""AcctName"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OACT T0  "
+                        strQuery += " WHERE ""Postable"" = 'Y'"
+                        objform.Title = "Account List - Selection"
+                    Case "LOC"
+                        strQuery = " SELECT  T0.""Code"" as ""Code"", T0.""Location"" as ""Name"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OLCT T0  "
+                        objform.Title = "Location List - Selection"
+                    Case "CC"
+                        strQuery = " SELECT  T0.""PrcCode"" as ""Code"", T0.""PrcName"" as ""Name"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OPRC T0  "
+                        strQuery += " WHERE ""DimCode"" = '1'"
+                        objform.Title = "Cost Center List - Selection"
+                    Case "PIA"
+                        strQuery = " SELECT  T0.""AcctCode"" as ""AcctCode"", T0.""AcctName"" as ""AcctName"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OACT T0  "
+                        strQuery += " WHERE ""Postable"" = 'Y'"
+                        objform.Title = "Account List - Selection"
+                    Case "PRA"
+                        strQuery = " SELECT  T0.""AcctCode"" as ""AcctCode"", T0.""AcctName"" as ""AcctName"" FROM "
+                        strQuery += " " & strSCompany & ".dbo.OACT T0  "
+                        strQuery += " WHERE ""Postable"" = 'Y'"
+                        objform.Title = "Account List - Selection"
                 End Select
 
                 If Documentchoice = "" Then
@@ -237,6 +273,29 @@
                                             oApplication.Utilities.SetMatrixValues(oBMatrix, "V_5_", sourcerowId, strSelectedItem2)
                                         ElseIf CFLChoice = "A" Then
                                             CType(oForm.Items.Item("9").Specific, SAPbouiCOM.EditText).Value = strSelectedItem1
+                                        ElseIf CFLChoice = "L" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_2", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "R" Then
+                                            CType(oForm.Items.Item("10").Specific, SAPbouiCOM.EditText).Value = strSelectedItem1
+                                        ElseIf CFLChoice = "IA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_3", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "RA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_4", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "LOC" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_5", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "CC" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_6", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "PIA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_1", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "PRA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_2", sourcerowId, strSelectedItem1)
                                         End If
                                         oForm.Freeze(False)
                                     ElseIf choice = "INVENTORY" Then
@@ -306,6 +365,29 @@
                                             oApplication.Utilities.SetMatrixValues(oBMatrix, "V_5_", sourcerowId, strSelectedItem2)
                                         ElseIf CFLChoice = "A" Then
                                             CType(oForm.Items.Item("9").Specific, SAPbouiCOM.EditText).Value = strSelectedItem1
+                                        ElseIf CFLChoice = "L" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_2", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "R" Then
+                                            CType(oForm.Items.Item("10").Specific, SAPbouiCOM.EditText).Value = strSelectedItem1
+                                        ElseIf CFLChoice = "IA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_3", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "RA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_4", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "LOC" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_5", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "CC" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_6", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "PIA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_1", sourcerowId, strSelectedItem1)
+                                        ElseIf CFLChoice = "PRA" Then
+                                            Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                            oApplication.Utilities.SetMatrixValues(oBMatrix, "V_2", sourcerowId, strSelectedItem1)
                                         End If
                                         oForm.Freeze(False)
                                     ElseIf choice = "INVENTORY" Then
@@ -365,6 +447,29 @@
                                     oApplication.Utilities.SetMatrixValues(oBMatrix, "V_5_", sourcerowId, strSelectedItem2)
                                 ElseIf CFLChoice = "A" Then
                                     CType(oForm.Items.Item("9").Specific, SAPbouiCOM.EditText).Value = strSelectedItem1
+                                ElseIf CFLChoice = "L" Then
+                                    Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                    oApplication.Utilities.SetMatrixValues(oBMatrix, "V_2", sourcerowId, strSelectedItem1)
+                                ElseIf CFLChoice = "R" Then
+                                    CType(oForm.Items.Item("10").Specific, SAPbouiCOM.EditText).Value = strSelectedItem1
+                                ElseIf CFLChoice = "IA" Then
+                                    Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                    oApplication.Utilities.SetMatrixValues(oBMatrix, "V_3", sourcerowId, strSelectedItem1)
+                                ElseIf CFLChoice = "RA" Then
+                                    Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                    oApplication.Utilities.SetMatrixValues(oBMatrix, "V_4", sourcerowId, strSelectedItem1)
+                                ElseIf CFLChoice = "LOC" Then
+                                    Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                    oApplication.Utilities.SetMatrixValues(oBMatrix, "V_5", sourcerowId, strSelectedItem1)
+                                ElseIf CFLChoice = "CC" Then
+                                    Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                    oApplication.Utilities.SetMatrixValues(oBMatrix, "V_6", sourcerowId, strSelectedItem1)
+                                ElseIf CFLChoice = "PIA" Then
+                                    Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                    oApplication.Utilities.SetMatrixValues(oBMatrix, "V_1", sourcerowId, strSelectedItem1)
+                                ElseIf CFLChoice = "PRA" Then
+                                    Dim oBMatrix As SAPbouiCOM.Matrix = oForm.Items.Item(ItemUID).Specific
+                                    oApplication.Utilities.SetMatrixValues(oBMatrix, "V_2", sourcerowId, strSelectedItem1)
                                 End If
                                 oForm.Freeze(False)
                             ElseIf choice = "INVENTORY" Then

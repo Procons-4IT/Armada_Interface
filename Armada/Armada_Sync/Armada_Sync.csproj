@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IArmada_Sync.cs" />
+    <Compile Include="Scenerio\S_OPDN.cs" />
     <Compile Include="Scenerio\S_OINV.cs" />
     <Compile Include="Scenerio\S_OCRD.cs" />
     <Compile Include="DataAccess\SqlDataAccess.cs" />

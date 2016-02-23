@@ -125,121 +125,203 @@ namespace Armada_Service
                 {
                     blnInProcess = true;
                     traceService("Sync Starts...");
+
                     foreach (DataRow dr in oDtTransLog.Rows)
                     {
-                        Hashtable htCCDet = new Hashtable();
-                        string[] strValues = new string[4];
-
-                        if (dr["Scenario"].ToString() != "InventoryTransfer")
+                        try
                         {
-                            sQuery = " Select T1.U_COMPANY,T0.U_WAREHOUSE,T1.U_OUTACCT From  ";
-                            sQuery += " [@Z_INBOUNDMAPPINGC] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
-                            sQuery += " Where T0.U_SHOPID = '" + dr["ShopID"].ToString() + "'";
-                            oCompDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
-                            if (oCompDT != null)
+
+                            traceService(" Transaction Type : " + dr["Scenario"].ToString());
+                            traceService(" Transaction Key : " + dr["Key"].ToString());
+
+                            Hashtable htCCDet = new Hashtable();
+                            string[] strValues = new string[4];
+
+                            if (dr["Scenario"].ToString() != "InventoryTransfer")
                             {
-                                if (oCompDT.Rows.Count > 0)
+                                sQuery = " Select T1.U_COMPANY,T0.U_WAREHOUSE,ISNULL(T0.U_COSTCEN,'') As U_COSTCEN From  ";
+                                sQuery += " [@Z_INBOUNDMAPPINGC] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
+                                sQuery += " Where T0.U_SHOPID = '" + dr["ShopID"].ToString() + "'";
+                                oCompDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
+                                if (oCompDT != null)
                                 {
-                                    strCompany = oCompDT.Rows[0]["U_COMPANY"].ToString();
-                                    strWareHouse = oCompDT.Rows[0]["U_WAREHOUSE"].ToString();
-                                    oGetCompany = GetCompany(strCompany);
-                                    strValues[0] = oCompDT.Rows[0]["U_OUTACCT"].ToString();
-                                    //strValues[1] = oCompDT.Rows[0]["U_CARDNUMBER"].ToString();
-                                    //strValues[2] = oCompDT.Rows[0]["U_CARDVALID"].ToString();
-                                    //strValues[3] = oCompDT.Rows[0]["U_PAYMENTMETHOD"].ToString();
+                                    if (oCompDT.Rows.Count > 0)
+                                    {
+                                        strCompany = oCompDT.Rows[0]["U_COMPANY"].ToString();
+                                        strWareHouse = oCompDT.Rows[0]["U_WAREHOUSE"].ToString();
+                                        oGetCompany = GetCompany(strCompany);
+                                        strValues[0] = oCompDT.Rows[0]["U_COSTCEN"].ToString();
+                                    }
+                                }
+
+                                sQuery = " Select T0.U_SCREDITCARD,T0.U_CREDITCARD,T0.U_CARDNUMBER,T0.U_CARDVALID,T0.U_PAYMENTMETHOD From  ";
+                                sQuery += " [@Z_INBOUNDMAPPINGC1] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
+                                sQuery += " Where T1.U_COMPANY = '" + strCompany + "'";
+                                oCCDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
+                                if (oCCDT != null)
+                                {
+                                    if (oCCDT.Rows.Count > 0)
+                                    {
+                                        foreach (DataRow dr1 in oCCDT.Rows)
+                                        {
+                                            htCCDet.Add(dr1["U_SCREDITCARD"], dr1);
+                                        }
+                                    }
                                 }
                             }
-
-                            sQuery = " Select T0.U_SCREDITCARD,T0.U_CREDITCARD,T0.U_CARDNUMBER,T0.U_CARDVALID,T0.U_PAYMENTMETHOD From  ";
-                            sQuery += " [@Z_INBOUNDMAPPINGC1] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
-                            sQuery += " Where T1.U_COMPANY = '" + strCompany + "'";
-                            oCCDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
-                            if (oCCDT != null)
+                            else
                             {
-                                if (oCCDT.Rows.Count > 0)
+                                sQuery = " Select T1.U_COMPANY,T0.U_WAREHOUSE,T0.U_GIACCT From  ";
+                                sQuery += " [@Z_INBOUNDMAPPINGC] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
+                                sQuery += " Where T0.U_SHOPID = '" + dr["ShopID"].ToString() + "'";
+                                oCompDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
+                                if (oCompDT != null)
                                 {
-                                    foreach (DataRow dr1 in oCCDT.Rows)
+                                    if (oCompDT.Rows.Count > 0)
                                     {
-                                        htCCDet.Add(dr1["U_SCREDITCARD"], dr1);
+                                        strCompany = oCompDT.Rows[0]["U_COMPANY"].ToString();
+                                        strWareHouse = oCompDT.Rows[0]["U_WAREHOUSE"].ToString();
+                                        strValues[1] = oCompDT.Rows[0]["U_GIACCT"].ToString();
+                                        oGetCompany = GetCompany(strCompany);
+                                    }
+                                }
+
+                                sQuery = " Select T1.U_COMPANY,T0.U_WAREHOUSE,T0.U_PRICELIST,T0.U_GRACCT From  ";
+                                sQuery += " [@Z_INBOUNDMAPPINGC] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
+                                sQuery += " Where T0.U_SHOPID = '" + dr["ShopID_T"].ToString() + "'";
+                                oCompDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
+                                if (oCompDT != null)
+                                {
+                                    if (oCompDT.Rows.Count > 0)
+                                    {
+                                        strCompany_T = oCompDT.Rows[0]["U_COMPANY"].ToString();
+                                        strWareHouse_T = oCompDT.Rows[0]["U_WAREHOUSE"].ToString();
+                                        oGetCompany_T = GetCompany(strCompany_T);
+                                        strValues[0] = oCompDT.Rows[0]["U_PRICELIST"].ToString();
+                                        strValues[2] = oCompDT.Rows[0]["U_GRACCT"].ToString();                                      
                                     }
                                 }
                             }
 
-                        }
-                        else
-                        {
-                            sQuery = " Select T1.U_COMPANY,T0.U_WAREHOUSE From  ";
-                            sQuery += " [@Z_INBOUNDMAPPINGC] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
-                            sQuery += " Where T0.U_SHOPID = '" + dr["ShopID"].ToString() + "'";
-                            oCompDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
-                            if (oCompDT != null)
+                            switch ((TransScenerio)Enum.Parse(typeof(TransScenerio), dr["Scenario"].ToString()))
                             {
-                                if (oCompDT.Rows.Count > 0)
-                                {
-                                    strCompany = oCompDT.Rows[0][0].ToString();
-                                    strWareHouse = oCompDT.Rows[0][1].ToString();
-                                    oGetCompany = GetCompany(strCompany);
-                                }
-                            }
-
-                            sQuery = " Select T1.U_COMPANY,T0.U_WAREHOUSE From  ";
-                            sQuery += " [@Z_INBOUNDMAPPINGC] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
-                            sQuery += " Where T0.U_SHOPID = '" + dr["ShopID_T"].ToString() + "'";
-                            oCompDT = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
-                            if (oCompDT != null)
-                            {
-                                if (oCompDT.Rows.Count > 0)
-                                {
-                                    strCompany_T = oCompDT.Rows[0][0].ToString();
-                                    strWareHouse_T = oCompDT.Rows[0][1].ToString();
-                                    oGetCompany_T = GetCompany(strCompany_T);
-                                }
-                            }
-                        }
-
-                        switch ((TransScenerio)Enum.Parse(typeof(TransScenerio), dr["Scenario"].ToString()))
-                        {
-                            case TransScenerio.Customer:
-                                foreach (SAPbobsCOM.Company item in objCompany)
-                                {
-                                    if (item.Connected)
+                                case TransScenerio.Customer:
+                                    foreach (SAPbobsCOM.Company item in objCompany)
                                     {
-                                        traceService("Company DB : " + item.CompanyDB);
-                                        traceService(" Transaction Type : " +  dr["Scenario"].ToString());
-                                        traceService(" Transaction Key : " + dr["Key"].ToString());
-                                        Singleton.obj_S_OCRD.Sync((dr["Key"].ToString()), TransType.A, item, strInterface, "", strValues,htCCDet );
+                                        if (item.Connected)
+                                        {
+                                            string strCountry = item.GetCompanyService().GetAdminInfo().Country;
+                                            traceService("Company DB : " + item.CompanyDB);
+                                            if (dr["Country"].ToString() == strCountry)
+                                            {
+                                                Singleton.obj_S_OCRD.Sync((dr["Key"].ToString()), TransType.A, item, strInterface, "", strValues, htCCDet);
+                                            }
+                                        }
+                                        else
+                                            traceService(" Error : Company Not Connected.");
                                     }
-                                }
-                                break;
-                            case TransScenerio.ARInvoice:                               
-                                if (oGetCompany.Connected)
-                                {
-                                    traceService("Company DB : " + oGetCompany.CompanyDB);
-                                    traceService(" Transaction Type : " + dr["Scenario"].ToString());
-                                    traceService(" Transaction Key : " + dr["Key"].ToString());
-                                    Singleton.obj_S_OINV.Sync((dr["Key"].ToString()), TransType.A, oGetCompany, strInterface, strWareHouse, strValues, htCCDet);
-                                }
-                                break;
-                            case TransScenerio.ARCreditMemo:                               
-                                if (oGetCompany.Connected)
-                                {
-                                    traceService("Company DB : " + oGetCompany.CompanyDB);
-                                    traceService(" Transaction Type : " + dr["Scenario"].ToString());
-                                    traceService(" Transaction Key : " + dr["Key"].ToString());
-                                    Singleton.obj_S_ORIN.Sync((dr["Key"].ToString()), TransType.A, oGetCompany, strInterface, strWareHouse, strValues, htCCDet);
-                                }
-                                break;
-                            case TransScenerio.InventoryTransfer:                              
-                                if (oGetCompany.Connected && oGetCompany_T.Connected)
-                                {
-                                    traceService("Company DB : " + oGetCompany.CompanyDB);
-                                    traceService(" Transaction Type : " + dr["Scenario"].ToString());
-                                    traceService(" Transaction Key : " + dr["Key"].ToString());
-                                    Singleton.obj_S_OWTR.Sync((dr["Key"].ToString()), TransType.A, oGetCompany, oGetCompany_T, strInterface, strWareHouse, strWareHouse_T);
-                                }
-                                break;                            
-                            default:
-                                break;
+                                    break;
+                                case TransScenerio.ARInvoice:
+                                    if (oGetCompany != null)
+                                    {
+                                        if (oGetCompany.Connected)
+                                        {
+                                            traceService("Company DB : " + oGetCompany.CompanyDB);
+                                            Singleton.obj_S_OINV.Sync((dr["Key"].ToString()), TransType.A, oGetCompany, strInterface, strWareHouse, strValues, htCCDet);
+                                        }
+                                        else
+                                            traceService(" Error : Company Not Connected.");
+                                    }
+                                    else
+                                        traceService(" Error : Company Not Found.");
+                                    break;
+                                case TransScenerio.ARCreditMemo:
+                                    if (oGetCompany != null)
+                                    {
+                                        if (oGetCompany.Connected)
+                                        {
+                                            traceService("Company DB : " + oGetCompany.CompanyDB);
+                                            Singleton.obj_S_ORIN.Sync((dr["Key"].ToString()), TransType.A, oGetCompany, strInterface, strWareHouse, strValues, htCCDet);
+                                        }
+                                        else
+                                            traceService(" Error : Company Not Connected.");
+                                    }
+                                    else
+                                        traceService(" Error : Company Not Found.");
+                                    break;
+                                case TransScenerio.InventoryTransfer:
+                                    if (oGetCompany != null && oGetCompany_T != null)
+                                    {
+                                        if (oGetCompany.Connected && oGetCompany_T.Connected)
+                                        {
+                                            traceService("From Company DB : " + oGetCompany.CompanyDB);
+                                            traceService("To Company DB : " + oGetCompany.CompanyDB);
+
+                                            if (oGetCompany.CompanyDB != oGetCompany_T.CompanyDB)
+                                            {
+                                                //Overriding the Good Issue Account if transaction happening from Main Company
+                                                if (oGetCompany.CompanyDB == strMainDB)
+                                                {
+                                                    sQuery = " Select T0.U_GIACCT From  ";
+                                                    sQuery += " [@Z_INBOUNDMAPPINGC2] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
+                                                    sQuery += " Where T1.U_COMPANY = '" + oGetCompany_T.CompanyDB + "'";
+                                                    DataTable oCompDT1 = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
+                                                    if (oCompDT1 != null)
+                                                    {
+                                                        if (oCompDT1.Rows.Count > 0)
+                                                        {
+                                                            strValues[1] = oCompDT.Rows[0]["U_GIACCT"].ToString();
+                                                        }
+                                                    }
+                                                }
+
+                                                //Overriding the Good Recipt Account if transaction happening from Main Company
+                                                if (oGetCompany_T.CompanyDB == strMainDB)
+                                                {
+                                                    sQuery = " Select T0.U_GRACCT From  ";
+                                                    sQuery += " [@Z_INBOUNDMAPPINGC2] T0 JOIN [@Z_INBOUNDMAPPING] T1 On T0.Code = T1.Code ";
+                                                    sQuery += " Where T1.U_COMPANY = '" + oGetCompany.CompanyDB + "'";
+                                                    DataTable oCompDT1 = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader(sQuery, strMainDB);
+                                                    if (oCompDT1 != null)
+                                                    {
+                                                        if (oCompDT1.Rows.Count > 0)
+                                                        {
+                                                            strValues[2] = oCompDT.Rows[0]["U_GRACCT"].ToString();
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            Singleton.obj_S_OWTR.Sync((dr["Key"].ToString()), TransType.A, oGetCompany, oGetCompany_T, strInterface, strWareHouse, strWareHouse_T,strValues);
+                                        }
+                                        else
+                                            traceService(" Error : Either One of the Company Not Connected.");
+                                    }
+                                    else
+                                        traceService(" Error : Either One of the Company Not Found.");
+                                    break;
+                                case TransScenerio.GRPO:
+                                    if (oGetCompany != null)
+                                    {
+                                        if (oGetCompany.Connected)
+                                        {
+                                            traceService("Company DB : " + oGetCompany.CompanyDB);
+                                            Singleton.obj_S_OPDN.Sync((dr["Key"].ToString()), TransType.A, oGetCompany, strInterface, strWareHouse, strValues, htCCDet);
+                                        }
+                                        else
+                                            traceService(" Error : Company Not Connected.");
+                                    }
+                                    else
+                                        traceService(" Error : Company Not Found.");
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            traceService(ex.StackTrace.ToString());
+                            traceService(ex.Message.ToString());
                         }
                     }
                     
@@ -385,7 +467,7 @@ namespace Armada_Service
             try
             {
                 string strInterface = System.Configuration.ConfigurationManager.AppSettings["InterDB"].ToString();
-                DataTable dtMailLog = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader("Select DocEntry From Z_OMTX Where Convert(VarChar(8),TransDate,112) = Convert(VarChar(8),GetDate(),112)", strInterface);
+                DataTable dtMailLog = Armada_Sync.Singleton.objSqlDataAccess.ExecuteReader("Select DocEntry From Z_OMTX Where Convert(VarChar(8),TransDate,112) = Convert(VarChar(8),GetDate()-1,112)", strInterface);
                 if (dtMailLog != null)
                 {
                     if (dtMailLog.Rows.Count == 0)

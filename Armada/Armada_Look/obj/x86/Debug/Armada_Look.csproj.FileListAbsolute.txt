@@ -17,3 +17,13 @@ C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.cspr
 C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.exe
 C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.pdb
 C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.csprojResolveAssemblyReference.cache
+D:\Project\procons4it\Armada\Armada\Armada_Look\bin\Debug\Armada_Look.exe.config
+D:\Project\procons4it\Armada\Armada\Armada_Look\bin\Debug\Armada_Look.exe
+D:\Project\procons4it\Armada\Armada\Armada_Look\bin\Debug\Armada_Look.pdb
+D:\Project\procons4it\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.csprojResolveAssemblyReference.cache
+D:\Project\procons4it\Armada\Armada\Armada_Look\obj\x86\Debug\Buson_Look.BusOn_Lookup.resources
+D:\Project\procons4it\Armada\Armada\Armada_Look\obj\x86\Debug\Buson_Look.ProjectInstaller.resources
+D:\Project\procons4it\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.Properties.Resources.resources
+D:\Project\procons4it\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.csproj.GenerateResource.Cache
+D:\Project\procons4it\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.exe
+D:\Project\procons4it\Armada\Armada\Armada_Look\obj\x86\Debug\Armada_Look.pdb

@@ -32,14 +32,14 @@ namespace Armada_Sync.Scenerio
             throw new NotImplementedException();
         }
 
-        public void Sync(string strKey, TransType eTrnType, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare, string strToWare)
+        public void Sync(string strKey, TransType eTrnType, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare, string strToWare, string[] strValues)
         {
             try
             {
                 switch (eTrnType)
                 {
                     case TransType.A:
-                        ((IArmada_Sync)this).Add(strKey, oCompany_S, oCompany_D, strLogger, strFromWare, strToWare);
+                        ((IArmada_Sync)this).Add(strKey, oCompany_S, oCompany_D, strLogger, strFromWare, strToWare, strValues);
                         break;
                     default:
                         break;
@@ -52,7 +52,7 @@ namespace Armada_Sync.Scenerio
             }
         }
 
-        public void Add(string strKey, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare, string strToWare)
+        public void Add(string strKey, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare, string strToWare, string[] strValues)
         {
             DataTable oHeader = null;
             DataTable oDetails = null;
@@ -73,7 +73,7 @@ namespace Armada_Sync.Scenerio
                     return;
                 else
                 {
-                    //Singleton.traceService("Has Record");
+                    Singleton.traceService("Has Record");
 
                     oHeader = oDataSet.Tables[0];
                     oDetails = oDataSet.Tables[1];
@@ -82,13 +82,16 @@ namespace Armada_Sync.Scenerio
                     {
                         if (oCompany_S.CompanyDB == oCompany_D.CompanyDB)
                         {
-                            //Singleton.traceService("Same Company...So Transfer");
+                            Singleton.traceService("Same Company...So Transfer");
                             oStockTransfer.DocDate = Convert.ToDateTime(oHeader.Rows[0]["TrnDate"].ToString());
                             oStockTransfer.TaxDate = Convert.ToDateTime(oHeader.Rows[0]["TrnDate"].ToString());
                             oStockTransfer.FromWarehouse = strFromWare;
-                            //Singleton.traceService("Set Header");
-                            //Singleton.traceService(strFromWare);
-                            //Singleton.traceService(strToWare);
+                            oStockTransfer.Comments = oHeader.Rows[0]["Remarks"].ToString();
+                            oStockTransfer.UserFields.Fields.Item("U_Z_TrnNum").Value = oHeader.Rows[0]["TrnNum"].ToString();
+
+                            Singleton.traceService("Set Header");
+                            Singleton.traceService(strFromWare);
+                            Singleton.traceService(strToWare);
                             if (oDetails.Rows.Count > 0)
                             {
                                 foreach (DataRow dr in oDetails.Rows)
@@ -99,18 +102,10 @@ namespace Armada_Sync.Scenerio
                                     oStockTransfer.Lines.WarehouseCode = strToWare;
                                     oStockTransfer.Lines.Add();
                                 }
-                                //Singleton.traceService("Set Details");
+                                Singleton.traceService("Set Details");
                             }
-                            //Singleton.traceService("Adding");
-                            try
-                            {
-                                //Singleton.traceService("Adding1");
-                                intTStatus = oStockTransfer.Add();
-                            }
-                            catch (Exception)
-                            {
-
-                            }
+                            Singleton.traceService("Adding");
+                            intTStatus = oStockTransfer.Add();
                             Singleton.traceService(intTStatus.ToString());
                             if (intTStatus != 0)
                             {
@@ -125,7 +120,6 @@ namespace Armada_Sync.Scenerio
                                 {
                                     intDocNum = oStockTransfer.DocNum;
                                 }
-
                                 Singleton.objSqlDataAccess.UpdateLog(strKey, TransScenerio.InventoryTransfer.ToString(), strDkey, intDocNum.ToString(), 1, "", "Armada_Sync Completed Sucessfully", strLogger);
                             }
                         }
@@ -137,6 +131,8 @@ namespace Armada_Sync.Scenerio
 
                             oInventoryExit.DocDate = Convert.ToDateTime(oHeader.Rows[0]["TrnDate"].ToString());
                             oInventoryExit.DocDueDate = Convert.ToDateTime(oHeader.Rows[0]["TrnDate"].ToString());
+                            oInventoryExit.Comments  = oHeader.Rows[0]["Remarks"].ToString();
+                            oInventoryExit.UserFields.Fields.Item("U_Z_TrnNum").Value = oHeader.Rows[0]["TrnNum"].ToString();
                             //oInventoryExit.Reference2 = oHeader.Rows[0]["Ref2"].ToString();
                             //Singleton.traceService("Set Header");
                             if (oDetails.Rows.Count > 0)
@@ -149,6 +145,7 @@ namespace Armada_Sync.Scenerio
                                     // oInventoryExit.Lines.ShipDate = Convert.ToDateTime(dr["ShipDate"].ToString());
                                     //oInventoryExit.Lines.UnitPrice = 0;
                                     oInventoryExit.Lines.WarehouseCode = strFromWare;
+                                    oInventoryExit.Lines.AccountCode = strValues[1];
                                     oInventoryExit.Lines.Add();
                                 }
                             }
@@ -181,8 +178,10 @@ namespace Armada_Sync.Scenerio
                                 //Singleton.traceService("Setting Entry Header");
                                 oInventoryEntry.DocDate = Convert.ToDateTime(oHeader.Rows[0]["TrnDate"].ToString());
                                 oInventoryEntry.DocDueDate = Convert.ToDateTime(oHeader.Rows[0]["TrnDate"].ToString());
+                                oInventoryEntry.Comments = oHeader.Rows[0]["Remarks"].ToString();
+                                //oInventoryEntry.PaymentGroupCode = Convert.ToInt16(strValues[0]);
                                 // oInventoryEntry.Reference2 = oHeader.Rows[0]["Ref2"].ToString();
-
+                                oInventoryEntry.UserFields.Fields.Item("U_Z_TrnNum").Value = oHeader.Rows[0]["TrnNum"].ToString();
 
                                 if (oDetails.Rows.Count > 0)
                                 {
@@ -193,8 +192,9 @@ namespace Armada_Sync.Scenerio
                                         oInventoryEntry.Lines.ItemDescription = dr["ItemDsc"].ToString();
                                         oInventoryEntry.Lines.Quantity = Convert.ToDouble(dr["Qty"].ToString());
                                         // oInventoryEntry.Lines.ShipDate = Convert.ToDateTime(dr["ShipDate"].ToString());
-                                        oInventoryEntry.Lines.UnitPrice = Convert.ToDouble(dr["Price"].ToString()); ;
+                                        oInventoryEntry.Lines.UnitPrice = Convert.ToDouble(dr["LCPrice"].ToString()); ;
                                         oInventoryEntry.Lines.WarehouseCode = strToWare;
+                                        oInventoryEntry.Lines.AccountCode = strValues[2];
                                         oInventoryEntry.Lines.Add();
                                     }
                                 }

@@ -17,6 +17,8 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -29,10 +31,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,6 +56,14 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Sync.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,6 +93,18 @@
     <Compile Include="BO\BOTransaction Log Report.cs" />
     <Compile Include="DO\DOTransaction Log_Report.cs" />
     <Compile Include="IBusinessLogic.cs" />
+    <Compile Include="Scnerios\S_OITM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scnerios\S_OITM.Designer.cs">
+      <DependentUpon>S_OITM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scnerios\S_OPDN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scnerios\S_OPDN.Designer.cs">
+      <DependentUpon>S_OPDN.cs</DependentUpon>
+    </Compile>
     <Compile Include="Scnerios\S_OINV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +137,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Scnerios\S_OITM.resx">
+      <DependentUpon>S_OITM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scnerios\S_OPDN.resx">
+      <DependentUpon>S_OPDN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Scnerios\S_OINV.resx">
       <DependentUpon>S_OINV.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,7 +159,7 @@
       <DependentUpon>TransLog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -181,7 +207,17 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resource\Start.ico" />
+    <Resource Include="Resource\Start.ico" />
+    <None Include="Resources\Error.gif" />
+    <None Include="Resources\Create.gif" />
+    <None Include="Resources\Yes.gif" />
+    <None Include="Resources\Red mark.gif" />
+    <None Include="Resources\Sync.gif" />
+    <None Include="Resources\Create.jpg" />
+    <None Include="Resources\Error.jpg" />
+    <None Include="Resources\Yes.jpg" />
+    <None Include="Resources\Sync.jpg" />
+    <None Include="Resources\Red_mark.jpg" />
     <Content Include="Resource\Stop.ico" />
     <Content Include="Sync.ico" />
   </ItemGroup>
@@ -193,7 +229,7 @@
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

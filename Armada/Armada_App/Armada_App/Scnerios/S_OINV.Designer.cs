@@ -30,9 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(S_OINV));
             this.scMain = new System.Windows.Forms.SplitContainer();
-            this.lblScenerio = new System.Windows.Forms.Label();
+            this.scHeader = new System.Windows.Forms.SplitContainer();
+            this.ToDate = new System.Windows.Forms.DateTimePicker();
+            this.Fromdate = new System.Windows.Forms.DateTimePicker();
+            this.lblFromRequestDate = new System.Windows.Forms.Label();
+            this.chkShopID = new System.Windows.Forms.CheckedListBox();
+            this.btnFilter = new System.Windows.Forms.Button();
+            this.cmbCompany = new System.Windows.Forms.ComboBox();
+            this.lblCountry = new System.Windows.Forms.Label();
+            this.flpImages = new System.Windows.Forms.FlowLayoutPanel();
             this.scDetail = new System.Windows.Forms.SplitContainer();
             this.dgv_S_OINV = new System.Windows.Forms.DataGridView();
+            this.Image = new System.Windows.Forms.DataGridViewImageColumn();
             this.DocEntry = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Scenario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TransactionType = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,12 +50,17 @@
             this.Remarks = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.StatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSync = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.scMain)).BeginInit();
             this.scMain.Panel1.SuspendLayout();
             this.scMain.Panel2.SuspendLayout();
             this.scMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.scHeader)).BeginInit();
+            this.scHeader.Panel1.SuspendLayout();
+            this.scHeader.Panel2.SuspendLayout();
+            this.scHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.scDetail)).BeginInit();
             this.scDetail.Panel1.SuspendLayout();
             this.scDetail.Panel2.SuspendLayout();
@@ -60,6 +74,7 @@
             this.scMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scMain.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.scMain.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scMain.IsSplitterFixed = true;
             this.scMain.Location = new System.Drawing.Point(0, 0);
             this.scMain.Margin = new System.Windows.Forms.Padding(4);
             this.scMain.Name = "scMain";
@@ -67,28 +82,125 @@
             // 
             // scMain.Panel1
             // 
-            this.scMain.Panel1.Controls.Add(this.lblScenerio);
+            this.scMain.Panel1.Controls.Add(this.scHeader);
             this.scMain.Panel1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // scMain.Panel2
             // 
             this.scMain.Panel2.Controls.Add(this.scDetail);
             this.scMain.Size = new System.Drawing.Size(912, 498);
-            this.scMain.SplitterDistance = 36;
+            this.scMain.SplitterDistance = 102;
             this.scMain.TabIndex = 1;
             // 
-            // lblScenerio
+            // scHeader
             // 
-            this.lblScenerio.AutoSize = true;
-            this.lblScenerio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblScenerio.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScenerio.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblScenerio.Location = new System.Drawing.Point(0, 0);
-            this.lblScenerio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblScenerio.Name = "lblScenerio";
-            this.lblScenerio.Size = new System.Drawing.Size(250, 23);
-            this.lblScenerio.TabIndex = 0;
-            this.lblScenerio.Text = "A/R Invoice Manual Sync";
+            this.scHeader.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.scHeader.Location = new System.Drawing.Point(0, 0);
+            this.scHeader.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.scHeader.Name = "scHeader";
+            // 
+            // scHeader.Panel1
+            // 
+            this.scHeader.Panel1.Controls.Add(this.ToDate);
+            this.scHeader.Panel1.Controls.Add(this.Fromdate);
+            this.scHeader.Panel1.Controls.Add(this.lblFromRequestDate);
+            this.scHeader.Panel1.Controls.Add(this.chkShopID);
+            this.scHeader.Panel1.Controls.Add(this.btnFilter);
+            this.scHeader.Panel1.Controls.Add(this.cmbCompany);
+            this.scHeader.Panel1.Controls.Add(this.lblCountry);
+            // 
+            // scHeader.Panel2
+            // 
+            this.scHeader.Panel2.Controls.Add(this.flpImages);
+            this.scHeader.Panel2Collapsed = true;
+            this.scHeader.Size = new System.Drawing.Size(912, 102);
+            this.scHeader.SplitterDistance = 729;
+            this.scHeader.TabIndex = 2;
+            // 
+            // ToDate
+            // 
+            this.ToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.ToDate.Location = new System.Drawing.Point(298, 12);
+            this.ToDate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.ToDate.Name = "ToDate";
+            this.ToDate.Size = new System.Drawing.Size(134, 21);
+            this.ToDate.TabIndex = 16;
+            // 
+            // Fromdate
+            // 
+            this.Fromdate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.Fromdate.Location = new System.Drawing.Point(160, 12);
+            this.Fromdate.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Fromdate.Name = "Fromdate";
+            this.Fromdate.Size = new System.Drawing.Size(134, 21);
+            this.Fromdate.TabIndex = 14;
+            // 
+            // lblFromRequestDate
+            // 
+            this.lblFromRequestDate.AutoSize = true;
+            this.lblFromRequestDate.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblFromRequestDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFromRequestDate.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblFromRequestDate.Location = new System.Drawing.Point(15, 12);
+            this.lblFromRequestDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFromRequestDate.Name = "lblFromRequestDate";
+            this.lblFromRequestDate.Size = new System.Drawing.Size(126, 13);
+            this.lblFromRequestDate.TabIndex = 15;
+            this.lblFromRequestDate.Text = "From Document Date";
+            // 
+            // chkShopID
+            // 
+            this.chkShopID.FormattingEnabled = true;
+            this.chkShopID.Location = new System.Drawing.Point(443, 12);
+            this.chkShopID.Name = "chkShopID";
+            this.chkShopID.Size = new System.Drawing.Size(120, 84);
+            this.chkShopID.TabIndex = 13;
+            // 
+            // btnFilter
+            // 
+            this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFilter.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnFilter.Location = new System.Drawing.Point(570, 71);
+            this.btnFilter.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.Size = new System.Drawing.Size(88, 23);
+            this.btnFilter.TabIndex = 12;
+            this.btnFilter.Text = "Filter";
+            this.btnFilter.UseVisualStyleBackColor = true;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
+            // 
+            // cmbCompany
+            // 
+            this.cmbCompany.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbCompany.Location = new System.Drawing.Point(160, 38);
+            this.cmbCompany.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbCompany.Name = "cmbCompany";
+            this.cmbCompany.Size = new System.Drawing.Size(271, 21);
+            this.cmbCompany.TabIndex = 6;
+            this.cmbCompany.SelectedIndexChanged += new System.EventHandler(this.cmbCompany_SelectedIndexChanged);
+            // 
+            // lblCountry
+            // 
+            this.lblCountry.AutoSize = true;
+            this.lblCountry.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblCountry.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCountry.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblCountry.Location = new System.Drawing.Point(15, 39);
+            this.lblCountry.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCountry.Name = "lblCountry";
+            this.lblCountry.Size = new System.Drawing.Size(86, 13);
+            this.lblCountry.TabIndex = 7;
+            this.lblCountry.Text = "SAP Company";
+            // 
+            // flpImages
+            // 
+            this.flpImages.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flpImages.Location = new System.Drawing.Point(0, 0);
+            this.flpImages.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.flpImages.Name = "flpImages";
+            this.flpImages.Size = new System.Drawing.Size(96, 100);
+            this.flpImages.TabIndex = 0;
             // 
             // scDetail
             // 
@@ -109,8 +221,8 @@
             this.scDetail.Panel2.Controls.Add(this.btnCancel);
             this.scDetail.Panel2.Controls.Add(this.btnSync);
             this.scDetail.Panel2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scDetail.Size = new System.Drawing.Size(912, 458);
-            this.scDetail.SplitterDistance = 389;
+            this.scDetail.Size = new System.Drawing.Size(912, 392);
+            this.scDetail.SplitterDistance = 323;
             this.scDetail.TabIndex = 0;
             // 
             // dgv_S_OINV
@@ -119,6 +231,7 @@
             this.dgv_S_OINV.AllowUserToDeleteRows = false;
             this.dgv_S_OINV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_S_OINV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Image,
             this.DocEntry,
             this.Scenario,
             this.TransactionType,
@@ -130,8 +243,16 @@
             this.dgv_S_OINV.Margin = new System.Windows.Forms.Padding(4);
             this.dgv_S_OINV.Name = "dgv_S_OINV";
             this.dgv_S_OINV.ReadOnly = true;
-            this.dgv_S_OINV.Size = new System.Drawing.Size(912, 389);
+            this.dgv_S_OINV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dgv_S_OINV.Size = new System.Drawing.Size(912, 323);
             this.dgv_S_OINV.TabIndex = 0;
+            // 
+            // Image
+            // 
+            this.Image.DataPropertyName = "Image";
+            this.Image.HeaderText = "Image";
+            this.Image.Name = "Image";
+            this.Image.ReadOnly = true;
             // 
             // DocEntry
             // 
@@ -179,7 +300,8 @@
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.StatusLabel});
+            this.StatusLabel,
+            this.toolStripProgressBar1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 43);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(912, 22);
@@ -191,6 +313,11 @@
             this.StatusLabel.Name = "StatusLabel";
             this.StatusLabel.Size = new System.Drawing.Size(765, 17);
             this.StatusLabel.Text = resources.GetString("StatusLabel.Text");
+            // 
+            // toolStripProgressBar1
+            // 
+            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
             // 
             // btnCancel
             // 
@@ -233,10 +360,14 @@
             this.Text = "A/R Invoice(Sale)";
             this.Load += new System.EventHandler(this.S_OINV_Load);
             this.scMain.Panel1.ResumeLayout(false);
-            this.scMain.Panel1.PerformLayout();
             this.scMain.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.scMain)).EndInit();
             this.scMain.ResumeLayout(false);
+            this.scHeader.Panel1.ResumeLayout(false);
+            this.scHeader.Panel1.PerformLayout();
+            this.scHeader.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.scHeader)).EndInit();
+            this.scHeader.ResumeLayout(false);
             this.scDetail.Panel1.ResumeLayout(false);
             this.scDetail.Panel2.ResumeLayout(false);
             this.scDetail.Panel2.PerformLayout();
@@ -252,18 +383,28 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer scMain;
-        private System.Windows.Forms.Label lblScenerio;
         private System.Windows.Forms.SplitContainer scDetail;
         private System.Windows.Forms.DataGridView dgv_S_OINV;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSync;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel StatusLabel;
+        private System.Windows.Forms.DataGridViewImageColumn Image;
         private System.Windows.Forms.DataGridViewTextBoxColumn DocEntry;
         private System.Windows.Forms.DataGridViewTextBoxColumn Scenario;
         private System.Windows.Forms.DataGridViewTextBoxColumn TransactionType;
         private System.Windows.Forms.DataGridViewTextBoxColumn Source_Key;
         private System.Windows.Forms.DataGridViewTextBoxColumn ShopID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Remarks;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.SplitContainer scHeader;
+        private System.Windows.Forms.Button btnFilter;
+        private System.Windows.Forms.ComboBox cmbCompany;
+        private System.Windows.Forms.Label lblCountry;
+        private System.Windows.Forms.FlowLayoutPanel flpImages;
+        private System.Windows.Forms.CheckedListBox chkShopID;
+        private System.Windows.Forms.DateTimePicker ToDate;
+        private System.Windows.Forms.DateTimePicker Fromdate;
+        private System.Windows.Forms.Label lblFromRequestDate;
     }
 }

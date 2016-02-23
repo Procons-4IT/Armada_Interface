@@ -5,6 +5,7 @@
     Private oDataSrc As SAPbouiCOM.DBDataSource
     Private oDataSrc_Line0 As SAPbouiCOM.DBDataSource
     Private oDataSrc_Line1 As SAPbouiCOM.DBDataSource
+    Private oDataSrc_Line2 As SAPbouiCOM.DBDataSource
 
     Private oMatrix As SAPbouiCOM.Matrix
     Private oEditText As SAPbouiCOM.EditText
@@ -45,9 +46,21 @@
                 oRecordSet.MoveNext()
             Loop
 
+            oRecordSet.MoveFirst()
+            oMatrix = oForm.Items.Item("11").Specific
+            oMatrix.AddRow(1, -1)
+            Dim oCom As SAPbouiCOM.ComboBox = oMatrix.Columns.Item("V_0").Cells().Item(1).Specific
+            oCom.ValidValues.Add("", "")
+            Do Until oRecordSet.EoF = True
+                oCom.ValidValues.Add(oRecordSet.Fields.Item(0).Value, oRecordSet.Fields.Item(0).Value)
+                oRecordSet.MoveNext()
+            Loop
+
             oForm.Items.Item("8").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
             oForm.PaneLevel = 1
             oForm.Mode = SAPbouiCOM.BoFormMode.fm_FIND_MODE
+            oForm.Items.Item("_6").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
+            oForm.Items.Item("9").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
             oForm.Freeze(False)
         Catch ex As Exception
             oForm.Freeze(False)
@@ -97,6 +110,8 @@
                                         oForm.PaneLevel = 1
                                     Case "_7"
                                         oForm.PaneLevel = 2
+                                    Case "_11"
+                                        oForm.PaneLevel = 3
                                 End Select
                             Case SAPbouiCOM.BoEventTypes.et_KEY_DOWN
                                 oForm = oApplication.SBO_Application.Forms.Item(FormUID)
@@ -111,6 +126,131 @@
                                     objChoose.SourceFormUID = FormUID
                                     objChoose.SourceLabel = 0 'pVal.Row
                                     objChoose.CFLChoice = "W"
+                                    objChoose.choice = "INBOUND"
+                                    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    objChoose.ItemCode = strItemCode
+                                    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    If pVal.ItemUID = "13" Then
+                                        objChoose.sourceColumID = "28"
+                                    Else
+                                        objChoose.sourceColumID = "29"
+                                    End If
+
+                                    objChoose.sourcerowId = pVal.Row
+                                    objChoose.BinDescrUID = ""
+                                    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    objChoose.databound(objChooseForm)
+                                ElseIf pVal.ItemUID = "6" And pVal.ColUID = "V_2" And pVal.CharPressed = 9 And oForm.Mode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE Then
+                                    oMatrix = oForm.Items.Item("6").Specific
+                                    Dim strItemCode As String = oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    Dim objChooseForm As SAPbouiCOM.Form
+                                    Dim objChoose As New clsChooseFromList_Gen
+                                    objChoose.ItemUID = pVal.ItemUID
+                                    objChoose.SourceFormUID = FormUID
+                                    objChoose.SourceLabel = 0 'pVal.Row
+                                    objChoose.CFLChoice = "L"
+                                    objChoose.choice = "INBOUND"
+                                    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    objChoose.ItemCode = strItemCode
+                                    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    If pVal.ItemUID = "13" Then
+                                        objChoose.sourceColumID = "28"
+                                    Else
+                                        objChoose.sourceColumID = "29"
+                                    End If
+
+                                    objChoose.sourcerowId = pVal.Row
+                                    objChoose.BinDescrUID = ""
+                                    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    objChoose.databound(objChooseForm)
+                                ElseIf pVal.ItemUID = "6" And pVal.ColUID = "V_3" And pVal.CharPressed = 9 And oForm.Mode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE Then
+                                    oMatrix = oForm.Items.Item("6").Specific
+                                    Dim strItemCode As String = oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    Dim objChooseForm As SAPbouiCOM.Form
+                                    Dim objChoose As New clsChooseFromList_Gen
+                                    objChoose.ItemUID = pVal.ItemUID
+                                    objChoose.SourceFormUID = FormUID
+                                    objChoose.SourceLabel = 0 'pVal.Row
+                                    objChoose.CFLChoice = "IA"
+                                    objChoose.choice = "INBOUND"
+                                    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    objChoose.ItemCode = strItemCode
+                                    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    If pVal.ItemUID = "13" Then
+                                        objChoose.sourceColumID = "28"
+                                    Else
+                                        objChoose.sourceColumID = "29"
+                                    End If
+
+                                    objChoose.sourcerowId = pVal.Row
+                                    objChoose.BinDescrUID = ""
+                                    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    objChoose.databound(objChooseForm)
+                                ElseIf pVal.ItemUID = "6" And pVal.ColUID = "V_4" And pVal.CharPressed = 9 And oForm.Mode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE Then
+                                    oMatrix = oForm.Items.Item("6").Specific
+                                    Dim strItemCode As String = oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    Dim objChooseForm As SAPbouiCOM.Form
+                                    Dim objChoose As New clsChooseFromList_Gen
+                                    objChoose.ItemUID = pVal.ItemUID
+                                    objChoose.SourceFormUID = FormUID
+                                    objChoose.SourceLabel = 0 'pVal.Row
+                                    objChoose.CFLChoice = "RA"
+                                    objChoose.choice = "INBOUND"
+                                    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    objChoose.ItemCode = strItemCode
+                                    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    If pVal.ItemUID = "13" Then
+                                        objChoose.sourceColumID = "28"
+                                    Else
+                                        objChoose.sourceColumID = "29"
+                                    End If
+
+                                    objChoose.sourcerowId = pVal.Row
+                                    objChoose.BinDescrUID = ""
+                                    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    objChoose.databound(objChooseForm)
+                                    'ElseIf pVal.ItemUID = "6" And pVal.ColUID = "V_5" And pVal.CharPressed = 9 And oForm.Mode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE Then
+                                    '    oMatrix = oForm.Items.Item("6").Specific
+                                    '    Dim strItemCode As String = oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    '    Dim objChooseForm As SAPbouiCOM.Form
+                                    '    Dim objChoose As New clsChooseFromList_Gen
+                                    '    objChoose.ItemUID = pVal.ItemUID
+                                    '    objChoose.SourceFormUID = FormUID
+                                    '    objChoose.SourceLabel = 0 'pVal.Row
+                                    '    objChoose.CFLChoice = "LOC"
+                                    '    objChoose.choice = "INBOUND"
+                                    '    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    '    objChoose.ItemCode = strItemCode
+                                    '    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    '    If pVal.ItemUID = "13" Then
+                                    '        objChoose.sourceColumID = "28"
+                                    '    Else
+                                    '        objChoose.sourceColumID = "29"
+                                    '    End If
+
+                                    '    objChoose.sourcerowId = pVal.Row
+                                    '    objChoose.BinDescrUID = ""
+                                    '    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    '    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    '    objChoose.databound(objChooseForm)
+                                ElseIf pVal.ItemUID = "6" And pVal.ColUID = "V_6" And pVal.CharPressed = 9 And oForm.Mode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE Then
+                                    oMatrix = oForm.Items.Item("6").Specific
+                                    Dim strItemCode As String = oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    Dim objChooseForm As SAPbouiCOM.Form
+                                    Dim objChoose As New clsChooseFromList_Gen
+                                    objChoose.ItemUID = pVal.ItemUID
+                                    objChoose.SourceFormUID = FormUID
+                                    objChoose.SourceLabel = 0 'pVal.Row
+                                    objChoose.CFLChoice = "CC"
                                     objChoose.choice = "INBOUND"
                                     objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
                                     objChoose.ItemCode = strItemCode
@@ -204,6 +344,81 @@
                                     oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
                                     objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
                                     objChoose.databound(objChooseForm)
+                                ElseIf pVal.ItemUID = "10" Then
+                                    'oMatrix = oForm.Items.Item("6").Specific
+                                    Dim strItemCode As String '= oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    Dim objChooseForm As SAPbouiCOM.Form
+                                    Dim objChoose As New clsChooseFromList_Gen
+                                    objChoose.ItemUID = pVal.ItemUID
+                                    objChoose.SourceFormUID = FormUID
+                                    objChoose.SourceLabel = 0 'pVal.Row
+                                    objChoose.CFLChoice = "R"
+                                    objChoose.choice = "INBOUND"
+                                    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    objChoose.ItemCode = strItemCode
+                                    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    If pVal.ItemUID = "13" Then
+                                        objChoose.sourceColumID = "28"
+                                    Else
+                                        objChoose.sourceColumID = "29"
+                                    End If
+
+                                    objChoose.sourcerowId = pVal.Row
+                                    objChoose.BinDescrUID = ""
+                                    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    objChoose.databound(objChooseForm)
+                                ElseIf pVal.ItemUID = "11" And pVal.ColUID = "V_1" And pVal.CharPressed = 9 And oForm.Mode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE Then
+                                    oMatrix = oForm.Items.Item("6").Specific
+                                    Dim strItemCode As String = oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    Dim objChooseForm As SAPbouiCOM.Form
+                                    Dim objChoose As New clsChooseFromList_Gen
+                                    objChoose.ItemUID = pVal.ItemUID
+                                    objChoose.SourceFormUID = FormUID
+                                    objChoose.SourceLabel = 0 'pVal.Row
+                                    objChoose.CFLChoice = "PIA"
+                                    objChoose.choice = "INBOUND"
+                                    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    objChoose.ItemCode = strItemCode
+                                    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    If pVal.ItemUID = "13" Then
+                                        objChoose.sourceColumID = "28"
+                                    Else
+                                        objChoose.sourceColumID = "29"
+                                    End If
+
+                                    objChoose.sourcerowId = pVal.Row
+                                    objChoose.BinDescrUID = ""
+                                    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    objChoose.databound(objChooseForm)
+                                ElseIf pVal.ItemUID = "11" And pVal.ColUID = "V_2" And pVal.CharPressed = 9 And oForm.Mode <> SAPbouiCOM.BoFormMode.fm_FIND_MODE Then
+                                    oMatrix = oForm.Items.Item("6").Specific
+                                    Dim strItemCode As String = oApplication.Utilities.getMatrixValues(oMatrix, "V_0", pVal.Row)
+                                    Dim objChooseForm As SAPbouiCOM.Form
+                                    Dim objChoose As New clsChooseFromList_Gen
+                                    objChoose.ItemUID = pVal.ItemUID
+                                    objChoose.SourceFormUID = FormUID
+                                    objChoose.SourceLabel = 0 'pVal.Row
+                                    objChoose.CFLChoice = "PRA"
+                                    objChoose.choice = "INBOUND"
+                                    objChoose.strSCompany = oDataSrc.GetValue("U_COMPANY", 0).ToString().Trim()
+                                    objChoose.ItemCode = strItemCode
+                                    objChoose.Documentchoice = "" ' oApplication.Utilities.GetDocType(oForm)
+
+                                    If pVal.ItemUID = "13" Then
+                                        objChoose.sourceColumID = "28"
+                                    Else
+                                        objChoose.sourceColumID = "29"
+                                    End If
+
+                                    objChoose.sourcerowId = pVal.Row
+                                    objChoose.BinDescrUID = ""
+                                    oApplication.Utilities.LoadForm("CFL_GEN.xml", frm_ChoosefromList_Gen)
+                                    objChooseForm = oApplication.SBO_Application.Forms.ActiveForm()
+                                    objChoose.databound(objChooseForm)
                                 End If
                         End Select
                 End Select
@@ -236,8 +451,10 @@
                 Case mnu_ADD
                     oForm = oApplication.SBO_Application.Forms.ActiveForm()
                     If pVal.BeforeAction = False Then
+                        oForm.Items.Item("8").Click(SAPbouiCOM.BoCellClickType.ct_Regular)
                         Dim strCode As String = oApplication.Utilities.getMaxCode("@Z_INBOUNDMAPPING", "DocEntry")
                         CType(oForm.Items.Item("8").Specific, SAPbouiCOM.EditText).Value = strCode
+                        oForm.Update()
                         'oForm.Items.Item("4").Enabled = True
                         'oForm.Items.Item("6").Enabled = True
                     End If
@@ -327,6 +544,9 @@
             Case "2"
                 oMatrix = aForm.Items.Item("7").Specific
                 oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC1")
+            Case "3"
+                oMatrix = aForm.Items.Item("11").Specific
+                oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC2")
         End Select
         Try
             aForm.Freeze(True)
@@ -334,12 +554,19 @@
             If oMatrix.RowCount <= 0 Then
                 oMatrix.AddRow()
             End If
-            oEditText = oMatrix.Columns.Item("V_0").Cells.Item(oMatrix.RowCount).Specific
             Try
+                oEditText = oMatrix.Columns.Item("V_0").Cells.Item(oMatrix.RowCount).Specific
                 If oEditText.String <> "" Then
                     oMatrix.AddRow()
                     oMatrix.ClearRowData(oMatrix.RowCount)
                 End If
+            Catch ex As Exception
+                aForm.Freeze(False)
+                oMatrix.AddRow()
+            End Try
+
+            Try
+               
 
             Catch ex As Exception
                 aForm.Freeze(False)
@@ -369,10 +596,13 @@
         oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC")
         If aForm.PaneLevel = 1 Then
             oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC")
-            frmSourceMatrix = aForm.Items.Item("13").Specific
+            frmSourceMatrix = aForm.Items.Item("6").Specific
         ElseIf aForm.PaneLevel = 2 Then
-            frmSourceMatrix = aForm.Items.Item("17").Specific
+            frmSourceMatrix = aForm.Items.Item("7").Specific
             oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPING1")
+        ElseIf aForm.PaneLevel = 3 Then
+            frmSourceMatrix = aForm.Items.Item("11").Specific
+            oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPING2")
         End If
 
         If intSelectedMatrixrow <= 0 Then
@@ -407,6 +637,9 @@
             Case "2"
                 oMatrix = aform.Items.Item("7").Specific
                 oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC1")
+            Case "3"
+                oMatrix = aform.Items.Item("11").Specific
+                oDataSrc_Line0 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC2")
         End Select
         For introw As Integer = 1 To oMatrix.RowCount
             If oMatrix.IsRowSelected(introw) Then
@@ -457,6 +690,15 @@
         oDataSrc_Line1 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC1")
         For count = 1 To oDataSrc_Line1.Size ' - 1
             oDataSrc_Line1.SetValue("LineId", count - 1, count)
+        Next
+        oMatrix.LoadFromDataSource()
+        oMatrix.LoadFromDataSource()
+
+        oMatrix = aForm.Items.Item("11").Specific
+        oMatrix.FlushToDataSource()
+        oDataSrc_Line2 = oForm.DataSources.DBDataSources.Item("@Z_INBOUNDMAPPINGC2")
+        For count = 1 To oDataSrc_Line1.Size ' - 1
+            oDataSrc_Line2.SetValue("LineId", count - 1, count)
         Next
         oMatrix.LoadFromDataSource()
         oMatrix.LoadFromDataSource()

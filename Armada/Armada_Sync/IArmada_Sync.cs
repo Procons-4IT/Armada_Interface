@@ -12,7 +12,8 @@ namespace Armada_Sync
         ARCreditMemo,
         InventoryTransfer,
         GoodsIssue,
-        GoodsReceipt
+        GoodsReceipt,
+        GRPO
     };
 
     public enum TransType { A };    
@@ -22,7 +23,7 @@ namespace Armada_Sync
         void Sync(string strKey, TransType eTrnType, SAPbobsCOM.Company oCompany, string strLogger, string strWareHouse, string[] strValues, Hashtable htCCdet);
         void Add(string strKey, SAPbobsCOM.Company oCompany, string strLogger, string strWareHouse, string[] strValues, Hashtable htCCdet);
 
-        void Sync(string strKey, TransType eTrnType, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare, string strToWare);
-        void Add(string strKey, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare,string strToWare);      
+        void Sync(string strKey, TransType eTrnType, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare, string strToWare, string[] strValues);
+        void Add(string strKey, SAPbobsCOM.Company oCompany_S, SAPbobsCOM.Company oCompany_D, string strLogger, string strFromWare, string strToWare, string[] strValues);      
     }
 }

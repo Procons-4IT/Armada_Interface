@@ -31,15 +31,19 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TransLog));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.MasterStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemMasterImportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modulesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm_S_OCRD = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm_S_OINV = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm_S_ORIN = new System.Windows.Forms.ToolStripMenuItem();
             this.tsm_S_OWTR = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsm_S_OPDN = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOffToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.StatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.statusStrip2 = new System.Windows.Forms.StatusStrip();
             this.companyStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.timeStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
@@ -58,6 +62,7 @@
             this.btnStop = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.DgvTxnLogParent = new System.Windows.Forms.DataGridView();
+            this.Image = new System.Windows.Forms.DataGridViewImageColumn();
             this.TransType = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Scenerio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.S_Key = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,6 +101,7 @@
             // 
             this.menuStrip1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MasterStripMenuItem1,
             this.modulesToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -105,13 +111,34 @@
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // MasterStripMenuItem1
+            // 
+            this.MasterStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.itemMasterImportToolStripMenuItem});
+            this.MasterStripMenuItem1.Enabled = false;
+            this.MasterStripMenuItem1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MasterStripMenuItem1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.MasterStripMenuItem1.Name = "MasterStripMenuItem1";
+            this.MasterStripMenuItem1.Size = new System.Drawing.Size(140, 22);
+            this.MasterStripMenuItem1.Text = "Master Import";
+            // 
+            // itemMasterImportToolStripMenuItem
+            // 
+            this.itemMasterImportToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.itemMasterImportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.itemMasterImportToolStripMenuItem.Name = "itemMasterImportToolStripMenuItem";
+            this.itemMasterImportToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.itemMasterImportToolStripMenuItem.Text = "Item Master Import";
+            this.itemMasterImportToolStripMenuItem.Click += new System.EventHandler(this.itemMasterImportToolStripMenuItem_Click);
+            // 
             // modulesToolStripMenuItem
             // 
             this.modulesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsm_S_OCRD,
             this.tsm_S_OINV,
             this.tsm_S_ORIN,
-            this.tsm_S_OWTR});
+            this.tsm_S_OWTR,
+            this.tsm_S_OPDN});
             this.modulesToolStripMenuItem.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modulesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.modulesToolStripMenuItem.Name = "modulesToolStripMenuItem";
@@ -123,7 +150,7 @@
             this.tsm_S_OCRD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsm_S_OCRD.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.tsm_S_OCRD.Name = "tsm_S_OCRD";
-            this.tsm_S_OCRD.Size = new System.Drawing.Size(194, 22);
+            this.tsm_S_OCRD.Size = new System.Drawing.Size(227, 22);
             this.tsm_S_OCRD.Text = "Business Partner ";
             this.tsm_S_OCRD.Click += new System.EventHandler(this.tsm_S_OCRD_Click);
             // 
@@ -132,7 +159,7 @@
             this.tsm_S_OINV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsm_S_OINV.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.tsm_S_OINV.Name = "tsm_S_OINV";
-            this.tsm_S_OINV.Size = new System.Drawing.Size(194, 22);
+            this.tsm_S_OINV.Size = new System.Drawing.Size(227, 22);
             this.tsm_S_OINV.Text = "A/R Invoice(Sale)";
             this.tsm_S_OINV.Click += new System.EventHandler(this.tsm_S_OINV_Click);
             // 
@@ -141,7 +168,7 @@
             this.tsm_S_ORIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsm_S_ORIN.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.tsm_S_ORIN.Name = "tsm_S_ORIN";
-            this.tsm_S_ORIN.Size = new System.Drawing.Size(194, 22);
+            this.tsm_S_ORIN.Size = new System.Drawing.Size(227, 22);
             this.tsm_S_ORIN.Text = "A/R Credit Memo";
             this.tsm_S_ORIN.Click += new System.EventHandler(this.tsm_S_ORIN_Click);
             // 
@@ -150,9 +177,18 @@
             this.tsm_S_OWTR.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsm_S_OWTR.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.tsm_S_OWTR.Name = "tsm_S_OWTR";
-            this.tsm_S_OWTR.Size = new System.Drawing.Size(194, 22);
+            this.tsm_S_OWTR.Size = new System.Drawing.Size(227, 22);
             this.tsm_S_OWTR.Text = "Inventory Transfer";
             this.tsm_S_OWTR.Click += new System.EventHandler(this.tsm_S_OWTR_Click);
+            // 
+            // tsm_S_OPDN
+            // 
+            this.tsm_S_OPDN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.tsm_S_OPDN.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.tsm_S_OPDN.Name = "tsm_S_OPDN";
+            this.tsm_S_OPDN.Size = new System.Drawing.Size(227, 22);
+            this.tsm_S_OPDN.Text = "Purchase Good Reeipt";
+            this.tsm_S_OPDN.Click += new System.EventHandler(this.tsm_S_OPDN_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -176,7 +212,8 @@
             // statusStrip1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.StatusLabel});
+            this.StatusLabel,
+            this.toolStripProgressBar1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 384);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 18, 0);
@@ -189,6 +226,12 @@
             this.StatusLabel.Name = "StatusLabel";
             this.StatusLabel.Size = new System.Drawing.Size(693, 17);
             this.StatusLabel.Text = resources.GetString("StatusLabel.Text");
+            // 
+            // toolStripProgressBar1
+            // 
+            this.toolStripProgressBar1.MarqueeAnimationSpeed = 50;
+            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
             // 
             // statusStrip2
             // 
@@ -413,6 +456,7 @@
             this.DgvTxnLogParent.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
             this.DgvTxnLogParent.BackgroundColor = System.Drawing.SystemColors.ControlDark;
             this.DgvTxnLogParent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Image,
             this.TransType,
             this.Scenerio,
             this.S_Key,
@@ -436,6 +480,15 @@
             this.DgvTxnLogParent.Size = new System.Drawing.Size(963, 249);
             this.DgvTxnLogParent.TabIndex = 6;
             this.DgvTxnLogParent.Sorted += new System.EventHandler(this.DgvTxnLogParent_Sorted);
+            // 
+            // Image
+            // 
+            this.Image.DataPropertyName = "Image";
+            this.Image.HeaderText = "Image";
+            this.Image.Name = "Image";
+            this.Image.ReadOnly = true;
+            this.Image.Visible = false;
+            this.Image.Width = 50;
             // 
             // TransType
             // 
@@ -659,6 +712,11 @@
         private System.Windows.Forms.FlowLayoutPanel flpImages;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.ToolStripMenuItem tsm_S_OPDN;
+        private System.Windows.Forms.ToolStripMenuItem MasterStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem itemMasterImportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.DataGridViewImageColumn Image;
         private System.Windows.Forms.DataGridViewTextBoxColumn TransType;
         private System.Windows.Forms.DataGridViewTextBoxColumn Scenerio;
         private System.Windows.Forms.DataGridViewTextBoxColumn S_Key;

@@ -1,0 +1,272 @@
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 1
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+Has Record
+Same Company...So Transfer
+Set Header
+01
+04
+Set Details
+Adding
+-5002
+Exec Armada_Service_TxnLog_U '1','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 3
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+Has Record
+Same Company...So Transfer
+Set Header
+01
+04
+Set Details
+Adding
+-5002
+Exec Armada_Service_TxnLog_U '3','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 111
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+Has Record
+Same Company...So Transfer
+Set Header
+01
+04
+Set Details
+Adding
+-5002
+Exec Armada_Service_TxnLog_U '111','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Invalid field name'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 112
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '112','InventoryTransfer','0','0','0','0','Invalid field name'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 1
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '1','InventoryTransfer','0','0','0','0','Invalid field name'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 113
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '113','InventoryTransfer','0','0','0','0','Invalid field name'
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 1
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+Has Record
+Same Company...So Transfer
+Set Header
+01
+02
+Set Details
+Adding
+0
+Exec Armada_Service_TxnLog_U '1','InventoryTransfer','12','12','1','','Armada_Sync Completed Sucessfully'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 3
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+Has Record
+Same Company...So Transfer
+Set Header
+01
+02
+Set Details
+Adding
+0
+Exec Armada_Service_TxnLog_U '3','InventoryTransfer','13','13','1','','Armada_Sync Completed Sucessfully'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 111
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+Has Record
+Same Company...So Transfer
+Set Header
+01
+02
+Set Details
+Adding
+0
+Exec Armada_Service_TxnLog_U '111','InventoryTransfer','14','14','1','','Armada_Sync Completed Sucessfully'
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 112
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '112','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 113
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '113','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Error Message : This BackgroundWorker is currently busy and cannot run multiple tasks concurrently.
+ Error Source : System
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Error Message : This BackgroundWorker is currently busy and cannot run multiple tasks concurrently.
+ Error Source : System
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','0','0','0','0','Input string was not in a correct format.'
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 2
+Source Company DB : SBODemoIN
+Destination Company DB : WMS
+Has Record
+Exec Armada_Service_TxnLog_U '2','InventoryTransfer','66','66','1','','Armada_Sync Completed Sucessfully'

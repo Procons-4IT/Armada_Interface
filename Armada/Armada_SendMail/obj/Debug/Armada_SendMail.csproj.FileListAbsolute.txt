@@ -6,3 +6,8 @@ C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\bin\Debug\Armada_SendMail.
 C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\bin\Debug\Armada_SendMail.pdb
 C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\obj\Debug\Armada_SendMail.dll
 C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\obj\Debug\Armada_SendMail.pdb
+C:\Users\LENOVO\Desktop\Armada\Armada\Armada_SendMail\obj\Debug\Armada_SendMail.csprojResolveAssemblyReference.cache
+D:\Project\procons4it\Armada\Armada\Armada_SendMail\bin\Debug\Armada_SendMail.dll
+D:\Project\procons4it\Armada\Armada\Armada_SendMail\bin\Debug\Armada_SendMail.pdb
+D:\Project\procons4it\Armada\Armada\Armada_SendMail\obj\Debug\Armada_SendMail.dll
+D:\Project\procons4it\Armada\Armada\Armada_SendMail\obj\Debug\Armada_SendMail.pdb

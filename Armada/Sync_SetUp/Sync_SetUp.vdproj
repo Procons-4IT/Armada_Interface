@@ -15,19 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4102D19253C648D39AAD8B76DDB43D6E"
+        "MsmKey" = "8:_09235D8B433A68733E3D87210A75F098"
+        "OwnerKey" = "8:_232F9A02041C4828A8176948C022AF45"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_232F9A02041C4828A8176948C022AF45"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4454C2A21910238045ED769923F82F51"
-        "OwnerKey" = "8:_52BDA86446464A1093A8F39C51A05E6A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_52BDA86446464A1093A8F39C51A05E6A"
+        "MsmKey" = "8:_4102D19253C648D39AAD8B76DDB43D6E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -39,8 +39,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A58BBA078085937C6A98582108268A65"
-        "OwnerKey" = "8:_52BDA86446464A1093A8F39C51A05E6A"
+        "MsmKey" = "8:_88EB29BABFC237B7CB965D11D67A225F"
+        "OwnerKey" = "8:_232F9A02041C4828A8176948C022AF45"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -57,20 +57,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4454C2A21910238045ED769923F82F51"
+        "MsmKey" = "8:_D41E1970B13945B08662205F4EDE1A87"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_52BDA86446464A1093A8F39C51A05E6A"
+        "OwnerKey" = "8:_88EB29BABFC237B7CB965D11D67A225F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A58BBA078085937C6A98582108268A65"
+        "OwnerKey" = "8:_232F9A02041C4828A8176948C022AF45"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_09235D8B433A68733E3D87210A75F098"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -155,17 +161,31 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_3D44A8730D524FD68414FB611DAAB5D4"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_56EFDAB232494B8B8CD3BF39E7490422"
             {
             "Name" = "8:Primary output from Armada_Service (Active)"
             "Condition" = "8:"
-            "Object" = "8:_52BDA86446464A1093A8F39C51A05E6A"
+            "Object" = "8:_232F9A02041C4828A8176948C022AF45"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_076CD3F8_C44A_4EB4_B3BD_F05F323359F3"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_CBCF8CD76E4543D586AE1E51FC773E14"
+            {
+            "Name" = "8:Primary output from Armada_Service (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_232F9A02041C4828A8176948C022AF45"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_E3653DAB_A19B_4B61_9E01_4DA06EF0198F"
+            "Identifier" = "8:_1F7B0274_3231_476C_818F_62AB8FD62C61"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -192,6 +212,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_09235D8B433A68733E3D87210A75F098"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Armada_Sync, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_09235D8B433A68733E3D87210A75F098"
+                    {
+                    "Name" = "8:Armada_Sync.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Armada_Sync.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_35C703E8541D48779203A4EB6AB40B28"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4102D19253C648D39AAD8B76DDB43D6E"
             {
             "SourcePath" = "8:..\\Armada_Service\\Armada_Service\\bin\\Debug\\Armada-Holding.gif"
@@ -210,37 +261,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4454C2A21910238045ED769923F82F51"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Armada_SendMail, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_4454C2A21910238045ED769923F82F51"
-                    {
-                    "Name" = "8:Armada_SendMail.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Armada_SendMail.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_35C703E8541D48779203A4EB6AB40B28"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_644764B0A017494BB9A7E9CA562F8FE7"
@@ -263,20 +283,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A58BBA078085937C6A98582108268A65"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_88EB29BABFC237B7CB965D11D67A225F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Armada_Sync, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:Armada_SendMail, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A58BBA078085937C6A98582108268A65"
+                    "_88EB29BABFC237B7CB965D11D67A225F"
                     {
-                    "Name" = "8:Armada_Sync.dll"
+                    "Name" = "8:Armada_SendMail.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Armada_Sync.dll"
+            "SourcePath" = "8:Armada_SendMail.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_35C703E8541D48779203A4EB6AB40B28"
@@ -318,6 +338,26 @@
             {
             "SourcePath" = "8:..\\Armada_Service\\Armada_Service\\bin\\Debug\\Sync.ico"
             "TargetName" = "8:Sync.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_35C703E8541D48779203A4EB6AB40B28"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D41E1970B13945B08662205F4EDE1A87"
+            {
+            "SourcePath" = "8:..\\Armada_Service\\Armada_Service\\bin\\Debug\\Armada_Service.exe.config"
+            "TargetName" = "8:Armada_Service.exe.config"
             "Tag" = "8:"
             "Folder" = "8:_35C703E8541D48779203A4EB6AB40B28"
             "Condition" = "8:"
@@ -389,16 +429,16 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Armada_Sync_SetUp"
-        "ProductCode" = "8:{3F177CAD-52FD-4623-B2E2-23E08CDFD073}"
-        "PackageCode" = "8:{5A5B2691-FF4D-4DA4-94F6-613C19C7381F}"
+        "ProductName" = "8:Armada_Sync(Auto)_20160204"
+        "ProductCode" = "8:{6C04CE94-98E9-4C8D-9189-D127A196970B}"
+        "PackageCode" = "8:{CB6ADE53-E3B1-4559-9E17-5054CFDF3EA5}"
         "UpgradeCode" = "8:{7D77474A-BFC1-410E-8F70-8C1AA44A8AF1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.2"
+        "ProductVersion" = "8:1.0.3"
         "Manufacturer" = "8:Procons-4it"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -910,7 +950,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_52BDA86446464A1093A8F39C51A05E6A"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_232F9A02041C4828A8176948C022AF45"
             {
             "SourcePath" = "8:..\\Armada_Service\\Armada_Service\\obj\\Debug\\Armada_Service.exe"
             "TargetName" = "8:"

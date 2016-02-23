@@ -1024,3 +1024,27 @@ Affected parameters are:
 Removing EventLog source Armada_Service.
 Service Armada_Service is being removed from the system...
 Service Armada_Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.InstallLog
+   assemblypath = C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.exe
+Removing EventLog source Armada_Service.
+Service Armada_Service is being removed from the system...
+Service Armada_Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.InstallLog
+   assemblypath = C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.exe
+Removing EventLog source Armada_Service.
+Service Armada_Service is being removed from the system...
+Service Armada_Service was successfully removed from the system.
+Uninstalling assembly 'C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.InstallLog
+   assemblypath = C:\Users\LENOVO\Desktop\Armada\Armada\Armada_Service\Armada_Service\bin\Debug\Armada_Service.exe
+Removing EventLog source Armada_Service.
+Service Armada_Service is being removed from the system...
+Service Armada_Service was successfully removed from the system.

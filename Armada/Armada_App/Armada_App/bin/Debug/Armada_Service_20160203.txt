@@ -1,0 +1,4362 @@
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 520
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 564
+   at Armada_App.TransLog.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 71
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 524
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 568
+   at Armada_App.TransLog.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 71
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SendMessage(Int32 msg, Int32 wparam, Int32 lparam)
+   at System.Windows.Forms.ProgressBar.set_Maximum(Int32 value)
+   at System.Windows.Forms.ToolStripProgressBar.set_Maximum(Int32 value)
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 59
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 524
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 568
+   at Armada_App.TransLog.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 71
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+ Transaction Type : Customer
+ Transaction Key : 1655
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1655
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1611
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1611
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1687
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1687
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1624
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1624
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1660
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1660
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1607
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1607
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1674
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1674
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1642
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1642
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1614
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1614
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1684
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1684
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1636
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1636
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1651
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1694
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1651
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1694
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1615
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1632
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1615
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1632
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1669
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1669
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1667
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1667
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1652
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1652
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1680
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1680
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1666
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1666
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1672
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1672
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1691
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1691
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1610
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1610
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1627
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1627
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1609
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1609
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1612
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1612
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1608
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1608
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1681
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1681
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1643
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1643
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1635
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1692
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1635
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1692
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1629
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1629
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1621
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1621
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1601
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1670
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1601
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1670
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1653
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1653
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1644
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1644
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1620
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1679
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1620
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1679
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1606
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1606
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1677
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1677
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1622
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1622
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1668
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1668
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1654
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1654
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1617
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1689
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1690
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1617
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1689
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1690
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1645
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1645
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1699
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1699
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1671
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1671
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1697
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1697
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1633
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1633
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1661
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1661
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1659
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1659
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1688
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1688
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1673
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1673
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1616
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1616
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1634
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1634
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1686
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1686
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1628
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1628
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1613
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1637
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1650
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1613
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1637
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1650
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1662
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1662
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1683
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1683
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1626
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1682
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1626
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1682
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1657
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1693
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1657
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1693
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1676
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1676
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1630
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1630
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1678
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1678
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1619
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1619
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1696
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1696
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1602
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1618
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1602
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1618
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1640
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1640
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1649
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1649
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1698
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1698
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1623
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1647
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1623
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1647
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1665
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1665
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1604
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1604
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1700
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1641
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1641
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1605
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1638
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1605
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1638
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1663
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1663
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1675
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1675
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1658
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1658
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1625
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1625
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1639
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1639
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1656
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1656
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1664
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1664
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1631
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1631
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1695
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1695
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1603
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1646
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1685
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1603
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1646
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1685
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1648
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1648
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 71
+Object reference not set to an instance of an object.
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 69
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 524
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 568
+   at Armada_App.TransLog.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 71
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+ Transaction Type : Customer
+ Transaction Key : 1655
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 524
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 568
+   at Armada_App.TransLog.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 71
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 524
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.ToolStripControlHost.OnBoundsChanged()
+   at System.Windows.Forms.ToolStripItem.SetBounds(Rectangle bounds)
+   at System.Windows.Forms.ToolStripItem.System.Windows.Forms.Layout.IArrangedElement.SetBounds(Rectangle bounds, BoundsSpecified specified)
+   at System.Windows.Forms.Layout.TableLayout.SetElementBounds(ContainerInfo containerInfo, RectangleF displayRectF)
+   at System.Windows.Forms.Layout.TableLayout.LayoutCore(IArrangedElement container, LayoutEventArgs args)
+   at System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   at System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   at System.Windows.Forms.StatusStrip.OnLayout(LayoutEventArgs levent)
+   at System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   at System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   at System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   at System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.set_Text(String value)
+   at Armada_App.TransLog.ConnectAllSapCompany() in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 568
+   at Armada_App.TransLog.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\TransLog.cs:line 71
+Cross-thread operation not valid: Control '' accessed from a thread other than the thread it was created on.
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+ Transaction Type : Customer
+ Transaction Key : 1655
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1655
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1655','Customer','1655','1655','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1655
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1655
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1655
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1655','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1655
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1611
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1611
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1611','Customer','1611','1611','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1611
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1611
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1611
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1611','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1611
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1687
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1687
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1687','Customer','1687','1687','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1687
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1687
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1687
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1687','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1687
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1624
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1624
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1624','Customer','1624','1624','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1624
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1624
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1624
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1624','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1624
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1660
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1660
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1660','Customer','1660','1660','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1660
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1660
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1660
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1660','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1660
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1607
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1607
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1607','Customer','1607','1607','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1607
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1607
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1607
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1607','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1607
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1674
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1674
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1674','Customer','1674','1674','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1674
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1674
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1674
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1674','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1674
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1642
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1642
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1642','Customer','1642','1642','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1642
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1642
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1642
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1642','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1642
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1614
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1614
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1614','Customer','1614','1614','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1614
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1614
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1614
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1614','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1614
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1684
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1684
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1684','Customer','1684','1684','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1684
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1684
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1684
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1684','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1684
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1636
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1636
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1636','Customer','1636','1636','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1636
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1636
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1636
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1636','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1636
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1651
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1651
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1651','Customer','1651','1651','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1651
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1694
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1694
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1694','Customer','1694','1694','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1694
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1651
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1651
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1651','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1651
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1694
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1694
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1694','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1694
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1615
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1615
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1615','Customer','1615','1615','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1615
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1632
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1632
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1632','Customer','1632','1632','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1632
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1615
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1615
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1615','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1615
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1632
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1632
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1632','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1632
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1669
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1669
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1669','Customer','1669','1669','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1669
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1669
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1669
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1669','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1669
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1667
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1667
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1667','Customer','1667','1667','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1667
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1667
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1667
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1667','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1667
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1652
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1652
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1652','Customer','1652','1652','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1652
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1652
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1652
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1652','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1652
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1680
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1680
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1680','Customer','1680','1680','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1680
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1680
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1680
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1680','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1680
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1666
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1666
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1666','Customer','1666','1666','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1666
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1666
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1666
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1666','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1666
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1672
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1672
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1672','Customer','1672','1672','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1672
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1672
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1672
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1672','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1672
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1691
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1691
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1691','Customer','1691','1691','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1691
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1691
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1691
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1691','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1691
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1610
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1610
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1610','Customer','1610','1610','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1610
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1610
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1610
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1610','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1610
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1627
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1627
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1627','Customer','1627','1627','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1627
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1627
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1627
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1627','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1627
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1609
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1609
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1609','Customer','1609','1609','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1609
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1609
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1609
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1609','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1609
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1612
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1612
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1612','Customer','1612','1612','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1612
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1612
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1612
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1612','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1612
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1608
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1608
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1608','Customer','1608','1608','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1608
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1608
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1608
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1608','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1608
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1681
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1681
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1681','Customer','1681','1681','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1681
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1681
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1681
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1681','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1681
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1643
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1643
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1643','Customer','1643','1643','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1643
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1643
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1643
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1643','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1643
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1635
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1635
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1635','Customer','1635','1635','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1635
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1692
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1692
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1692','Customer','1692','1692','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1692
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1635
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1635
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1635','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1635
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1692
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1692
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1692','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1692
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1629
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1629
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1629','Customer','1629','1629','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1629
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1629
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1629
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1629','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1629
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1621
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1621
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1621','Customer','1621','1621','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1621
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1621
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1621
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1621','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1621
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1601
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1601
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1601','Customer','1601','1601','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1601
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1670
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1670
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1670','Customer','1670','1670','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1670
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1601
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1601
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1601','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1601
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1670
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1670
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1670','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1670
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1653
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1653
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1653','Customer','1653','1653','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1653
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1653
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1653
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1653','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1653
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1644
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1644
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1644','Customer','1644','1644','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1644
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1644
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1644
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1644','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1644
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1620
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1620
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1620','Customer','1620','1620','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1620
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1679
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1679
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1679','Customer','1679','1679','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1679
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1620
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1620
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1620','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1620
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1679
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1679
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1679','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1679
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1606
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1606
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1606','Customer','1606','1606','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1606
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1606
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1606
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1606','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1606
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1677
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1677
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1677','Customer','1677','1677','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1677
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1677
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1677
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1677','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1677
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1622
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1622
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1622','Customer','1622','1622','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1622
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1622
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1622
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1622','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1622
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1668
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1668
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1668','Customer','1668','1668','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1668
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1668
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1668
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1668','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1668
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1654
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1654
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1654','Customer','1654','1654','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1654
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1654
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1654
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1654','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1654
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1617
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1617
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1617','Customer','1617','1617','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1617
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1689
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1689
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1689','Customer','1689','1689','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1689
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1690
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1690
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1690','Customer','1690','1690','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1690
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1617
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1617
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1617','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1617
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1689
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1689
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1689','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1689
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1690
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1690
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1690','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1690
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1645
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1645
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1645','Customer','1645','1645','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1645
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1645
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1645
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1645','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1645
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1699
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1699
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1699','Customer','1699','1699','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1699
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1699
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1699
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1699','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1699
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1671
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1671
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1671','Customer','1671','1671','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1671
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1671
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1671
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1671','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1671
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1697
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1697
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1697','Customer','1697','1697','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1697
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1697
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1697
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1697','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1697
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1633
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1633
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1633','Customer','1633','1633','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1633
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1633
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1633
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1633','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1633
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1661
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1661
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1661','Customer','1661','1661','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1661
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1661
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1661
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1661','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1661
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1659
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1659
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1659','Customer','1659','1659','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1659
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1659
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1659
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1659','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1659
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1688
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1688
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1688','Customer','1688','1688','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1688
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1688
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1688
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1688','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1688
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1673
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1673
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1673','Customer','1673','1673','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1673
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1673
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1673
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1673','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1673
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1616
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1616
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1616','Customer','1616','1616','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1616
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1616
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1616
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1616','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1616
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1634
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1634
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1634','Customer','1634','1634','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1634
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1634
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1634
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1634','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1634
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1686
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1686
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1686','Customer','1686','1686','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1686
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1686
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1686
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1686','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1686
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1628
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1628
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1628','Customer','1628','1628','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1628
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1628
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1628
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1628','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1628
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1613
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1613
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1613','Customer','1613','1613','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1613
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1637
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1637
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1637','Customer','1637','1637','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1637
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1650
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1650
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1650','Customer','1650','1650','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1650
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1613
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1613
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1613','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1613
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1637
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1637
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1637','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1637
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1650
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1650
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1650','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1650
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1662
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1662
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1662','Customer','1662','1662','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1662
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1662
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1662
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1662','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1662
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1683
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1683
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1683','Customer','1683','1683','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1683
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1683
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1683
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1683','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1683
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1626
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1626
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1626','Customer','1626','1626','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1626
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1682
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1682
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1682','Customer','1682','1682','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1682
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1626
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1626
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1626','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1626
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1682
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1682
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1682','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1682
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1657
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1657
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1657','Customer','1657','1657','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1657
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1693
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1693
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1693','Customer','1693','1693','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1693
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1657
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1657
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1657','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1657
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1693
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1693
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1693','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1693
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1676
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1676
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1676','Customer','1676','1676','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1676
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1676
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1676
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1676','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1676
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1630
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1630
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1630','Customer','1630','1630','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1630
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1630
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1630
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1630','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1630
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1678
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1678
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1678','Customer','1678','1678','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1678
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1678
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1678
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1678','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1678
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1619
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1619
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1619','Customer','1619','1619','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1619
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1619
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1619
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1619','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1619
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1696
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1696
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1696','Customer','1696','1696','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1696
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1696
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1696
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1696','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1696
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1602
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1602
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1602','Customer','1602','1602','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1602
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1618
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1618
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1618','Customer','1618','1618','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1618
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1602
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1602
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1602','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1602
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1618
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1618
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1618','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1618
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1640
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1640
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1640','Customer','1640','1640','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1640
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1640
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1640
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1640','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1640
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1649
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1649
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1649','Customer','1649','1649','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1649
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1649
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1649
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1649','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1649
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1698
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1698
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1698','Customer','1698','1698','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1698
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1698
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1698
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1698','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1698
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1623
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1623
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1623','Customer','1623','1623','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1623
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1647
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1647
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1647','Customer','1647','1647','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1647
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1623
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1623
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1623','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1623
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1647
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1647
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1647','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1647
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1665
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1665
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1665','Customer','1665','1665','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1665
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1665
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1665
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1665','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1665
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1604
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1604
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1604','Customer','1604','1604','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1604
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1604
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1604
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1604','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1604
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1700
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1700
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1700','Customer','1700','1700','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1700
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1641
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1641
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1641','Customer','1641','1641','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1641
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1641
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1641
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1641','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1641
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1605
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1605
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1605','Customer','1605','1605','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1605
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1638
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1638
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1638','Customer','1638','1638','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1638
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1605
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1605
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1605','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1605
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1638
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1638
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1638','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1638
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1663
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1663
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1663','Customer','1663','1663','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1663
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1663
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1663
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1663','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1663
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1675
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1675
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1675','Customer','1675','1675','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1675
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1675
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1675
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1675','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1675
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1658
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1658
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1658','Customer','1658','1658','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1658
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1658
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1658
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1658','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1658
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1625
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1625
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1625','Customer','1625','1625','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1625
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1625
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1625
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1625','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1625
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1639
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1639
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1639','Customer','1639','1639','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1639
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1639
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1639
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1639','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1639
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1656
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1656
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1656','Customer','1656','1656','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1656
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1656
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1656
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1656','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1656
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1664
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1664
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1664','Customer','1664','1664','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1664
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1664
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1664
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1664','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1664
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1631
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1631
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1631','Customer','1631','1631','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1631
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1631
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1631
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1631','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1631
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1695
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1695
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1695','Customer','1695','1695','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1695
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1695
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1695
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1695','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1695
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1603
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1603
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1603','Customer','1603','1603','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1603
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1646
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1646
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1646','Customer','1646','1646','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1646
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1685
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1685
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1685','Customer','1685','1685','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1685
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1603
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1603
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1603','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1603
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1646
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1646
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1646','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1646
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1685
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1685
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1685','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1685
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1648
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1648
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1648','Customer','1648','1648','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1648
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1648
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1648
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1648','Customer','','','1','','Armada_Sync Completed Sucessfully(Customer Already Exist)'
+ Transaction Type : Customer
+ Transaction Key : 1648
+Company DB : 
+ Error : Company Not Connected.
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 69
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Company : SBODemoIN
+Connected
+ Transaction Type : Customer
+ Transaction Key : 1712
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1712
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1712','Customer','1712','1712','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1712
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1768
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1768
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1768','Customer','1768','1768','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1768
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1765
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1765
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1765','Customer','1765','1765','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1765
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1717
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1717
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1717','Customer','1717','1717','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1717
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1741
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1741
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1741','Customer','1741','1741','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1741
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1784
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1784
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1784','Customer','1784','1784','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1784
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1733
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1733
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1733','Customer','1733','1733','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1733
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1724
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1724
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1724','Customer','1724','1724','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1724
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1727
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1727
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1727','Customer','1727','1727','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1727
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1751
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1751
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1751','Customer','1751','1751','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1751
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1757
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1757
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1757','Customer','1757','1757','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1757
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1722
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1722
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1722','Customer','1722','1722','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1722
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1710
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1710
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1710','Customer','1710','1710','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1710
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1743
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1743
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1743','Customer','1743','1743','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1743
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1752
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1752
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1752','Customer','1752','1752','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1752
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1705
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1705
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1705','Customer','1705','1705','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1705
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1740
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1740
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1740','Customer','1740','1740','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1740
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1731
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1731
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1731','Customer','1731','1731','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1731
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1774
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1774
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1774','Customer','1774','1774','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1774
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1753
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1753
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1753','Customer','1753','1753','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1753
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1714
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1714
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1714','Customer','1714','1714','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1714
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1750
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1750
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1750','Customer','1750','1750','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1750
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1772
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1772
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1772','Customer','1772','1772','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1772
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1794
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1794
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1794','Customer','1794','1794','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1794
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1723
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1723
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1723','Customer','1723','1723','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1723
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1742
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1742
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1742','Customer','1742','1742','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1742
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1798
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1798
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1798','Customer','1798','1798','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1798
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1730
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1730
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1730','Customer','1730','1730','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1730
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1706
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1706
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1706','Customer','1706','1706','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1706
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1709
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1709
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1709','Customer','1709','1709','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1709
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1737
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1737
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1737','Customer','1737','1737','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1737
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1773
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1773
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1773','Customer','1773','1773','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1773
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1788
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1788
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1788','Customer','1788','1788','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1788
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1713
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1713
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1713','Customer','1713','1713','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1713
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1728
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1728
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1728','Customer','1728','1728','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1728
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1732
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1732
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1732','Customer','1732','1732','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1732
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1708
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1708
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1708','Customer','1708','1708','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1708
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1704
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1704
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1704','Customer','1704','1704','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1704
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1793
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1793
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1793','Customer','1793','1793','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1793
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1747
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1747
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1747','Customer','1747','1747','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1747
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1766
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1766
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1766','Customer','1766','1766','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1766
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1769
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1769
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1769','Customer','1769','1769','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1769
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1764
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1764
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1764','Customer','1764','1764','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1764
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1778
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1778
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1778','Customer','1778','1778','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1778
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1703
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1703
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1703','Customer','1703','1703','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1703
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1761
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1761
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1761','Customer','1761','1761','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1761
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1718
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1718
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1718','Customer','1718','1718','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1718
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1781
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1781
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1781','Customer','1781','1781','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1781
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1786
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1786
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1786','Customer','1786','1786','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1786
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1789
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1789
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1789','Customer','1789','1789','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1789
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1748
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1748
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1748','Customer','1748','1748','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1748
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1726
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1726
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1726','Customer','1726','1726','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1726
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1729
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1729
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1729','Customer','1729','1729','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1729
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1734
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1734
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1734','Customer','1734','1734','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1734
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1735
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1735
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1735','Customer','1735','1735','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1735
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1755
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1755
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1755','Customer','1755','1755','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1755
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1800
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1800
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1800','Customer','1800','1800','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1800
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1760
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1760
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1760','Customer','1760','1760','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1760
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1701
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1701
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1701','Customer','1701','1701','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1701
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1783
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1783
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1783','Customer','1783','1783','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1783
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1758
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1758
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1758','Customer','1758','1758','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1758
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1776
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1776
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1776','Customer','1776','1776','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1776
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1779
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1779
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1779','Customer','1779','1779','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1779
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1763
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1763
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1763','Customer','1763','1763','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1763
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1745
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1745
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1745','Customer','1745','1745','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1745
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1716
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1716
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1716','Customer','1716','1716','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1716
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1719
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1719
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1719','Customer','1719','1719','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1719
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1796
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1796
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1796','Customer','1796','1796','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1796
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1799
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1799
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1799','Customer','1799','1799','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1799
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1711
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1711
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1711','Customer','1711','1711','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1711
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1762
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1762
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1762','Customer','1762','1762','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1762
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1715
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1715
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1715','Customer','1715','1715','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1715
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1767
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1767
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1767','Customer','1767','1767','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1767
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1791
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1791
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1791','Customer','1791','1791','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1791
+Company DB : 
+ Error : Company Not Connected.
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Company : SBODemoIN
+Connected
+Get Company
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Get Company
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Company DB : SBODemoIN
+Query :Exec Armada_Service_S_OINV_s '1709211'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Exec Armada_Service_TxnLog_U '1709211','ARInvoice','0','0','0','-10','Confirmation amount must be greater than zero '
+Company Not Found...
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Get Company
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Company DB : SBODemoIN
+Query :Exec Armada_Service_S_OINV_s '1709211'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Exec Armada_Service_TxnLog_U '1709211','ARInvoice','0','0','0','-10','Confirmation amount must be greater than zero '
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OINV.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OINV.cs:line 73
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Get Company
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Company DB : SBODemoIN
+Query :Exec Armada_Service_S_OINV_s '1709211'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Exec Armada_Service_TxnLog_U '1709211','ARInvoice','0','0','0','-10','Confirmation amount must be greater than zero '
+ Transaction Type : Customer
+ Transaction Key : 1792
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 72
+Object reference not set to an instance of an object.
+ Transaction Type : Customer
+ Transaction Key : 1785
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1785
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1785','Customer','1785','1785','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1785
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1720
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1720
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1720','Customer','1720','1720','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1720
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1787
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1787
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1787','Customer','1787','1787','1','','Armada_Sync Completed Sucessfully'
+ Transaction Type : Customer
+ Transaction Key : 1787
+Company DB : 
+ Error : Company Not Connected.
+ Transaction Type : Customer
+ Transaction Key : 1736
+Company DB : SBODemoIN
+ Transaction Type : Customer
+ Transaction Key : 1736
+Company DB : WMS
+Exec Armada_Service_TxnLog_U '1736','Customer','1736','1736','1','','Armada_Sync Completed Sucessfully'
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OCRD.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OCRD.cs:line 86
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Get Company
+ Transaction Type : ARInvoice
+ Transaction Key : 1709211
+Company DB : SBODemoIN
+Query :Exec Armada_Service_S_OINV_s '1709211'
+Adding HASRCROD
+Adding INvoice
+Adding Details
+Details Added
+Exec Armada_Service_TxnLog_U '1709211','ARInvoice','0','0','0','-10','Confirmation amount must be greater than zero '
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OINV.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OINV.cs:line 74
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Company : SBODemoIN
+Connected
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Get Company
+ Transaction Type : ARCreditMemo
+ Transaction Key : 1
+Company DB : SBODemoIN
+Exec Armada_Service_TxnLog_U '1','ARCreditMemo','0','0','0','-5002','540000062 - G/L account 500025 needs DR assignment for dimension 1;  fill in DR-related fields'
+Get Company
+ Transaction Type : ARCreditMemo
+ Transaction Key : 2
+Company DB : SBODemoIN
+Exec Armada_Service_TxnLog_U '2','ARCreditMemo','0','0','0','-5002','540000062 - G/L account 500025 needs DR assignment for dimension 1;  fill in DR-related fields'
+Get Company
+ Transaction Type : ARCreditMemo
+ Transaction Key : 4
+Company DB : SBODemoIN
+Exec Armada_Service_TxnLog_U '4','ARCreditMemo','0','0','0','-5002','540000062 - G/L account 500025 needs DR assignment for dimension 1;  fill in DR-related fields'
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_ORIN.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_ORIN.cs:line 73
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 75
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Get Company
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 90
+Column named ShopID_T cannot be found.
+Parameter name: columnName
+Company : SBODemoIN
+Connected
+Get Company
+Company : WMS
+Connected
+Company : 
+Error Code : No company specified
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+-5002
+Exec Armada_Service_TxnLog_U '1','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 3
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+-5002
+Exec Armada_Service_TxnLog_U '3','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 111
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+-5002
+Exec Armada_Service_TxnLog_U '111','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 112
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+-5002
+Exec Armada_Service_TxnLog_U '112','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 1
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+-5002
+Exec Armada_Service_TxnLog_U '1','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+Get Company
+ Transaction Type : InventoryTransfer
+ Transaction Key : 113
+Source Company DB : SBODemoIN
+Destination Company DB : SBODemoIN
+-5002
+Exec Armada_Service_TxnLog_U '113','InventoryTransfer','0','0','0','-5002','Header level warehouse location is different from line level warehouse location  [WTR1.LocCode][line: 1]'
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OWTR.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OWTR.cs:line 75
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+ Transaction Type : GRPO
+ Transaction Key : 1
+ Error : Company Not Found.
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OPDN.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OPDN.cs:line 73
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+ Transaction Type : GRPO
+ Transaction Key : 1
+ Error : Company Not Found.
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewRowCollection.SharedRow(Int32 rowIndex)
+   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+   at Armada_App.S_OPDN.m_oWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Project\procons4it\Armada\Armada\Armada_App\Armada_App\Scnerios\S_OPDN.cs:line 73
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index

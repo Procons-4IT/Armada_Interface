@@ -95,13 +95,14 @@ namespace Armada_Sync.Scenerio
                         oInvoice.CardName = oHeader.Rows[0]["Name"].ToString();
                         oInvoice.DocDate = Convert.ToDateTime(oHeader.Rows[0]["DocDate"].ToString());
                         oInvoice.NumAtCard = oHeader.Rows[0]["DocNum"].ToString();
-                        //Invoice.DocCurrency = oHeader.Rows[0]["DocCur"].ToString();
+                        oInvoice.DocCurrency = oHeader.Rows[0]["DocCur"].ToString();
                         //oInvoice.DocRate = Convert.ToDouble(oHeader.Rows[0]["DocRate"].ToString());
                         oInvoice.Comments = oHeader.Rows[0]["Remarks"].ToString();
                         oInvoice.DiscountPercent = Convert.ToDouble(oHeader.Rows[0]["DisPrct"].ToString());
                         oInvoice.UserFields.Fields.Item("U_Z_PAYTYPE").Value = oHeader.Rows[0]["DocType"].ToString();
                         oInvoice.UserFields.Fields.Item("U_Z_CASHIER").Value = oHeader.Rows[0]["Cashier"].ToString();
                         oInvoice.UserFields.Fields.Item("U_Z_DOCTIME").Value = oHeader.Rows[0]["DocTime"].ToString();
+                        oInvoice.UserFields.Fields.Item("U_Z_TrnNum").Value = oHeader.Rows[0]["DocNum"].ToString();
 
                         if (oDetails.Rows.Count > 0)
                         {
@@ -114,6 +115,8 @@ namespace Armada_Sync.Scenerio
                                 oInvoice.Lines.UnitPrice = Convert.ToDouble(dr["UnitPrice"].ToString());
                                 //oInvoice.Lines.Currency = dr["Currency"].ToString();
                                 oInvoice.Lines.WarehouseCode = strWareHouse;
+                                if (strValues[0] != "")
+                                    oInvoice.Lines.CostingCode = strValues[0];
                                 oInvoice.Lines.Add();
                             }
                             traceService("Details Added");
@@ -154,6 +157,7 @@ namespace Armada_Sync.Scenerio
                                 oPayment.DocType = SAPbobsCOM.BoRcptTypes.rCustomer;
                                 oPayment.DocDate = Convert.ToDateTime(oHeader.Rows[0]["DocDate"].ToString());
                                 oPayment.TaxDate = Convert.ToDateTime(oHeader.Rows[0]["DocDate"].ToString());
+                                oPayment.DocCurrency = oHeader.Rows[0]["DocCur"].ToString();
 
                                 oPayment.Invoices.DocEntry = Convert.ToInt32(strDkey);
                                 oPayment.Invoices.InvoiceType = SAPbobsCOM.BoRcptInvTypes.it_Invoice;
@@ -238,13 +242,13 @@ namespace Armada_Sync.Scenerio
         #endregion
 
 
-        public void Add(string strKey, Company oCompany_S, Company oCompany_D, string strLogger, string strFromWare, string strToWare)
+        public void Add(string strKey, Company oCompany_S, Company oCompany_D, string strLogger, string strFromWare, string strToWare, string[] strValues)
         {
             throw new NotImplementedException();
         }
 
 
-        public void Sync(string strKey, TransType eTrnType, Company oCompany_S, Company oCompany_D, string strLogger, string strFromWare, string strToWare)
+        public void Sync(string strKey, TransType eTrnType, Company oCompany_S, Company oCompany_D, string strLogger, string strFromWare, string strToWare, string[] strValues)
         {
             throw new NotImplementedException();
         }

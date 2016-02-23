@@ -17,6 +17,7 @@ namespace Armada_Sync
         private static S_OINV oS_OINV = null;
         private static S_ORIN oS_ORIN = null;
         private static S_OWTR oS_OWTR = null;
+        private static S_OPDN oS_OPDN = null;
 
         #endregion
 
@@ -83,6 +84,18 @@ namespace Armada_Sync
                     oS_OWTR = new S_OWTR();
                 }
                 return oS_OWTR;
+            }
+        }
+
+        public static S_OPDN obj_S_OPDN
+        {
+            get
+            {
+                if (oS_OPDN == null)
+                {
+                    oS_OPDN = new S_OPDN();
+                }
+                return oS_OPDN;
             }
         }
 

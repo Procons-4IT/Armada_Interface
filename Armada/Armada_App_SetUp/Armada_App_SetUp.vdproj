@@ -15,14 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0534287D428F6F64D48D94C850469EAA"
-        "OwnerKey" = "8:_7F21C87E9699498199F5D73B9C304726"
+        "MsmKey" = "8:_329934407AD74D10A0B3129D9567E6B7"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_329934407AD74D10A0B3129D9567E6B7"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_4CB59B902F4DFA37778A942514ACC0E8"
+        "OwnerKey" = "8:_E17CAD553C61EDA252D54DC06BC7FABA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_57D4C7E5DD610EB85E701B015DD9EE30"
+        "OwnerKey" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -33,44 +39,56 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7CD03A037467B5468FDD300C7FBD4803"
-        "OwnerKey" = "8:_7F21C87E9699498199F5D73B9C304726"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7F21C87E9699498199F5D73B9C304726"
+        "MsmKey" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B222E2850496CF6B6CEC23328340D76C"
-        "OwnerKey" = "8:_7F21C87E9699498199F5D73B9C304726"
+        "MsmKey" = "8:_796957CCA6C320C1F89BE229154868D8"
+        "OwnerKey" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_823B0DF301106466D29AB59E6A41E69D"
+        "OwnerKey" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E17CAD553C61EDA252D54DC06BC7FABA"
+        "OwnerKey" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7F21C87E9699498199F5D73B9C304726"
+        "OwnerKey" = "8:_796957CCA6C320C1F89BE229154868D8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B222E2850496CF6B6CEC23328340D76C"
+        "OwnerKey" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7CD03A037467B5468FDD300C7FBD4803"
+        "OwnerKey" = "8:_57D4C7E5DD610EB85E701B015DD9EE30"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0534287D428F6F64D48D94C850469EAA"
+        "OwnerKey" = "8:_823B0DF301106466D29AB59E6A41E69D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E17CAD553C61EDA252D54DC06BC7FABA"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -155,17 +173,59 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_83B00567563148E599464446F7253597"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_60133AA28BE34D0C8BAC97DE59A006A6"
             {
             "Name" = "8:Primary output from Armada_App (Active)"
             "Condition" = "8:"
-            "Object" = "8:_7F21C87E9699498199F5D73B9C304726"
+            "Object" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_EB649D51_CD2A_4DB0_A61D_7316B6629A88"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_68DCE400BE444EB7860C48F20B7C489C"
+            {
+            "Name" = "8:Primary output from Armada_App (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_A0B3F791_DC73_4097_8944_E488476DE24F"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_6BCA943BAFFA4A808660273887B944A7"
+            {
+            "Name" = "8:Primary output from Armada_App (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_CEE2C22D_2EA5_46FD_8E80_649A266C94EF"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A5801605EF8E404E89D458437EB6C440"
+            {
+            "Name" = "8:Primary output from Armada_App (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_81035BDB_A1C9_4949_BFBB_BD1A35B126B9"
+            "Identifier" = "8:_CE1D9A39_F8AE_45F7_A500_6AE0D678A7D8"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -192,14 +252,105 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0534287D428F6F64D48D94C850469EAA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_329934407AD74D10A0B3129D9567E6B7"
+            {
+            "SourcePath" = "8:..\\Armada_App\\Armada_App\\Sync.ico"
+            "TargetName" = "8:Sync.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4CB59B902F4DFA37778A942514ACC0E8"
+            {
+            "SourcePath" = "8:SAPbobsCOM90.dll"
+            "TargetName" = "8:SAPbobsCOM90.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_57D4C7E5DD610EB85E701B015DD9EE30"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Armada_Sync, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_57D4C7E5DD610EB85E701B015DD9EE30"
+                    {
+                    "Name" = "8:Armada_Sync.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Armada_Sync.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_59A3BA21CC66439DA185037409ACBB15"
+            {
+            "SourcePath" = "8:..\\Armada_App\\Armada_App\\bin\\Debug\\Armada_App.exe.config"
+            "TargetName" = "8:Armada_App.exe.config"
+            "Tag" = "8:"
+            "Folder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_796957CCA6C320C1F89BE229154868D8"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:UXUTIL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0534287D428F6F64D48D94C850469EAA"
+                    "_796957CCA6C320C1F89BE229154868D8"
                     {
                     "Name" = "8:UXUTIL.dll"
                     "Attributes" = "3:512"
@@ -223,54 +374,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_329934407AD74D10A0B3129D9567E6B7"
-            {
-            "SourcePath" = "8:..\\Armada_App\\Armada_App\\Sync.ico"
-            "TargetName" = "8:Sync.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_59A3BA21CC66439DA185037409ACBB15"
-            {
-            "SourcePath" = "8:..\\Armada_App\\Armada_App\\bin\\Debug\\Armada_App.exe.config"
-            "TargetName" = "8:Armada_App.exe.config"
-            "Tag" = "8:"
-            "Folder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7CD03A037467B5468FDD300C7FBD4803"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_823B0DF301106466D29AB59E6A41E69D"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Armada_SendMail, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7CD03A037467B5468FDD300C7FBD4803"
+                    "_823B0DF301106466D29AB59E6A41E69D"
                     {
                     "Name" = "8:Armada_SendMail.dll"
                     "Attributes" = "3:512"
@@ -294,20 +405,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B222E2850496CF6B6CEC23328340D76C"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E17CAD553C61EDA252D54DC06BC7FABA"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Armada_Sync, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:Interop.SAPbobsCOM, Version=9.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_B222E2850496CF6B6CEC23328340D76C"
+                    "_E17CAD553C61EDA252D54DC06BC7FABA"
                     {
-                    "Name" = "8:Armada_Sync.dll"
+                    "Name" = "8:Interop.SAPbobsCOM.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Armada_Sync.dll"
+            "SourcePath" = "8:Interop.SAPbobsCOM.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
@@ -380,20 +491,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Armada_App_20151222"
-        "ProductCode" = "8:{DE39386A-73B0-4A71-809B-46191FF0B422}"
-        "PackageCode" = "8:{D7746BE0-7EB3-43B0-9E91-552954F0C66E}"
+        "ProductName" = "8:Armada_App_20160211"
+        "ProductCode" = "8:{52F8BE5B-EAD4-4029-BF03-8C27D336B5D7}"
+        "PackageCode" = "8:{F87D9539-69F6-402C-82E0-069F864D10C2}"
         "UpgradeCode" = "8:{675E0B82-E18E-4908-A7C1-5E3D6B203F3D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.6"
         "Manufacturer" = "8:Procons-4it"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Armada_App_20151222"
+        "Title" = "8:Armada_App_20160211"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Procons-4it"
         "Keywords" = "8:"
@@ -502,15 +613,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_76EF17F3E23B4D5A8E6C9D2F36472AD6"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1082A5459E0A47908132EEDD5966BA0B"
             {
-            "Name" = "8:Armada_App_20151222"
+            "Name" = "8:Armada_App_20160211"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_7F21C87E9699498199F5D73B9C304726"
+            "Target" = "8:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
             "Folder" = "8:_2A7862B7393F4140B1AC94D958E3F8FB"
             "WorkingFolder" = "8:_558DFAAFD63B4977B809330C49FA5D43"
             "Icon" = "8:_329934407AD74D10A0B3129D9567E6B7"
@@ -915,7 +1026,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7F21C87E9699498199F5D73B9C304726"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_61F3DFDCC46541F6AA1F1A4EE5EDB9EC"
             {
             "SourcePath" = "8:..\\Armada_App\\Armada_App\\obj\\Debug\\Armada_App.exe"
             "TargetName" = "8:"
